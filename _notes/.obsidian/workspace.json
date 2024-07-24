@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GraphDB/test.md",
+                "file": "Public/Markdown Rendered.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GraphDB/test.md",
+                "file": "Public/Markdown Rendered.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GraphDB/test.md",
+                "file": "Public/Markdown Rendered.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GraphDB/test.md"
+                "file": "Public/Markdown Rendered.md"
               }
             }
           }
@@ -148,11 +148,11 @@
   },
   "active": "353468d0552c31c6",
   "lastOpenFiles": [
-    "Public/Welcome to the garden.md",
+    "Public/Hidden Note.md",
     "GraphDB/test.md",
+    "Public/Welcome to the garden.md",
     "GraphDB/Test.md",
     "Public/Markdown Rendered.md",
-    "Public/Hidden Note.md",
     "Public/Credits.md",
     "Untitled.md",
     "GraphDB"
