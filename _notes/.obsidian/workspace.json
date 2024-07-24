@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GraphDB/this is a test.md",
+                "file": "Public/this is a test 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GraphDB/this is a test.md",
+                "file": "Public/this is a test 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GraphDB/this is a test.md",
+                "file": "Public/this is a test 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GraphDB/this is a test.md"
+                "file": "Public/this is a test 1.md"
               }
             }
           }
@@ -146,15 +146,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "353468d0552c31c6",
+  "active": "9957c382509e88cd",
   "lastOpenFiles": [
-    "GraphDB/Untitled.md",
     "GraphDB/this is a test.md",
+    "Public/this is a test 1.md",
     "Public/Welcome to the garden.md",
+    "Public/Markdown Rendered.md",
+    "GraphDB/Untitled.md",
     "Public/Credits.md",
     "Public/Hidden Note.md",
     "GraphDB/Untitled.canvas",
-    "Public/Markdown Rendered.md",
     "GraphDB/test.md",
     "GraphDB/Test.md",
     "Untitled.md",
