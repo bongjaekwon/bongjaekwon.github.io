@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Public/Welcome to the garden.md",
+                "file": "GraphDB/<Paper reading> NoSQL spatial.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "d23d32c93143dbbf",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Public/Welcome to the garden.md",
+                "file": "GraphDB/<Paper reading> NoSQL spatial.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Public/Welcome to the garden.md",
+                "file": "GraphDB/<Paper reading> NoSQL spatial.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Public/Welcome to the garden.md"
+                "file": "GraphDB/<Paper reading> NoSQL spatial.md"
               }
             }
           }
@@ -148,12 +148,12 @@
   },
   "active": "353468d0552c31c6",
   "lastOpenFiles": [
+    "Public/Welcome to the garden.md",
     "Public/Markdown Rendered.md",
     "Public/Hidden Note.md",
     "Public/Credits.md",
     "Public/this is a test 1.md",
-    "GraphDB/this is a test.md",
-    "Public/Welcome to the garden.md",
+    "GraphDB/<Paper reading> NoSQL spatial.md",
     "GraphDB/Untitled.md",
     "GraphDB/Untitled.canvas",
     "GraphDB/test.md",
