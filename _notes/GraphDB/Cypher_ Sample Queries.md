@@ -56,3 +56,9 @@ DB : ArcadeDB, Neo4j Community (using Cypher / openCypher) <br>
 	- SET c = {name: 'christopher robin', age: 6}, c:Human
 	- RETURN c
 	- *Replace all**
+	<br> <br> 
+	- MATCH(c)
+	- WHERE c.name='christopher robin' 
+	- SET c += {emotion: 'sad'}
+	- RETURN c
+	- *Only add**
