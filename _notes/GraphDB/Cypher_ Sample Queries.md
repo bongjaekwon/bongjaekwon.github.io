@@ -36,4 +36,14 @@ DB : ArcadeDB, Neo4j Community (using Cypher / openCypher) <br>
 	- MATCH (a{title:'Winnie the Pooh'})-(b) RETURN a, b
 	- MATCH (a{title:'Winnie the Pooh'})->(b) RETURN a, b
 	- MATCH (a{title:'Winnie the Pooh'})<-[w]-(p) RETURN a, type(w), p
-
+<br> <br>
+- SET
+	- MATCH (c:Character {name: 'Pooh'})
+	- SET c.color = 'yellow', c.born = 1921
+	- RETURN c
+	- <br>
+	- MATCH (c)
+	- SET c:Character, n.name = 'pooh' c.color = 'yellow', c.born = 1921
+	- RETURN c, labels(c)
+	- <br>
+	- 

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GraphDB/Paper reading_ NoSQL spatial.md",
+                "file": "GraphDB/Cypher_ Sample Queries.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GraphDB/Paper reading_ NoSQL spatial.md",
+                "file": "GraphDB/Cypher_ Sample Queries.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GraphDB/Paper reading_ NoSQL spatial.md",
+                "file": "GraphDB/Cypher_ Sample Queries.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GraphDB/Paper reading_ NoSQL spatial.md"
+                "file": "GraphDB/Cypher_ Sample Queries.md"
               }
             }
           }
@@ -148,9 +148,9 @@
   },
   "active": "353468d0552c31c6",
   "lastOpenFiles": [
+    "GraphDB/Paper reading_ NoSQL spatial.md",
     "GraphDB/Cypher_ Basic.md",
     "GraphDB/Cypher_ Sample Queries.md",
-    "GraphDB/Paper reading_ NoSQL spatial.md",
     "Public/Welcome to the garden.md",
     "Public/Markdown Rendered.md",
     "Public/Hidden Note.md",
