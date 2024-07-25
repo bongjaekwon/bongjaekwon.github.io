@@ -58,6 +58,8 @@ The basic structure of this query languae is summarized as follows.
 > - CALL {} (subquery)
 > - CALL procedure
 
+
+
 Cypher
 
 ```
