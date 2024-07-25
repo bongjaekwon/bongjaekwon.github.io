@@ -43,10 +43,10 @@ DB : ArcadeDB, Neo4j Community (using Cypher / openCypher) <br>
 	- RETURN c
 	<br><br>
 	- MATCH (c)
-	- SET c:Character, n.name = 'pooh', c.color = 'yellow', c.born = 1921
+	- SET c:Character, c.name = 'pooh', c.color = 'yellow', c.born = 1921
 	- RETURN c, labels(c)
 	<br><br>
 	- MATCH (c)
-	- WHERE n.name = 'pooh'
+	- WHERE c.name = 'pooh'
 	- SET c = {c.color: 'green', c.born: 1997}
 	- RETURN c
