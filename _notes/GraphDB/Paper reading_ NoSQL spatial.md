@@ -11,9 +11,9 @@ Writer : KWON Bongjae
 
 #### Paper information
 
-Title : NoSQL spatial (Neo4j versus PostGIS)
-Author : Bart Baas, Geographical Information Management Applications (GIMA)
-Date : May 22, 2012
+Title : NoSQL spatial (Neo4j versus PostGIS) <br>
+Author : Bart Baas, Geographical Information Management Applications (GIMA) <br>
+Date : May 22, 2012 <br> 
 Keywords : GIS, Geo, Databases, NoSQL, Neo4j, PostgreSQL, measurements.
 
 #### Purpose of reading
