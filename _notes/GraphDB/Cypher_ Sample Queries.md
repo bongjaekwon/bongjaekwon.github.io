@@ -25,7 +25,7 @@ DB : ArcadeDB, Neo4j Community (using Cypher / openCypher) <br>
 	- CREATE (a:Animation {title: 'Winnie the Pooh'})
 	- CREATE (a:Animation {title: 'Winnie the Pooh', company: 'The Walt Disney Company'})
 	- CREATE (a:Animation {title: 'Winnie the Pooh'})<-[w:Written_by {when:26-10-20-1926}]-(p:Person {name: 'Alan Alexander Milne'})
-
+<br>
 - MATCH
 	- MATCH (a) RETURN a
 	- MATCH (a:Animation) RETURN a
