@@ -6,19 +6,14 @@ date: 24-07-2024
 #### Posting information
 
 Posting Date : 24-07-2024  
-
 Last Edit : 24-07-2024  
-
 Writer : KWON Bongjae
 
 #### Paper information
 
 Title : NoSQL spatial (Neo4j versus PostGIS)
-
 Author : Bart Baas, Geographical Information Management Applications (GIMA)
-
 Date : May 22, 2012
-
 Keywords : GIS, Geo, Databases, NoSQL, Neo4j, PostgreSQL, measurements.
 
 #### Purpose of reading
