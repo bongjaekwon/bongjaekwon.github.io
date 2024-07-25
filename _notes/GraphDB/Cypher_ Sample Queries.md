@@ -3,6 +3,8 @@ title: Cypher_ Sample Queries
 feed: show
 date: 25-07-2024
 ---
+Basic queries
+
 #### Posting information
 
 Posting Date : 25-07-2024  
