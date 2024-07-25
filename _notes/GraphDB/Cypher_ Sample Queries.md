@@ -48,5 +48,5 @@ DB : ArcadeDB, Neo4j Community (using Cypher / openCypher) <br>
 	<br><br>
 	- MATCH (c)
 	- WHERE c.name = 'pooh'
-	- SET c = {c.color: 'green', c.born: 1997}
+	- SET c.color= 'green', c.born= 1997
 	- RETURN c
