@@ -60,13 +60,14 @@ The basic structure of this query languae is summarized as follows.
 
 
 
-Cypher
 
+Cypher
 ```
 MERGE (c:Chracter {name: 'Pooh'})-[:Is_character_of]->(a:animation {name: 'Winnie the Pooh'})
 
 RETURN c, a
 ```
+
 
 
 ArcadeDB
