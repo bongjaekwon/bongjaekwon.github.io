@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GraphDB/<Paper reading> NoSQL spatial.md",
+                "file": "GraphDB/Paper reading_ NoSQL spatial.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GraphDB/<Paper reading> NoSQL spatial.md",
+                "file": "GraphDB/Paper reading_ NoSQL spatial.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GraphDB/<Paper reading> NoSQL spatial.md",
+                "file": "GraphDB/Paper reading_ NoSQL spatial.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GraphDB/<Paper reading> NoSQL spatial.md"
+                "file": "GraphDB/Paper reading_ NoSQL spatial.md"
               }
             }
           }
@@ -153,7 +153,7 @@
     "Public/Hidden Note.md",
     "Public/Credits.md",
     "Public/this is a test 1.md",
-    "GraphDB/<Paper reading> NoSQL spatial.md",
+    "GraphDB/Paper reading_ NoSQL spatial.md",
     "GraphDB/Untitled.md",
     "GraphDB/Untitled.canvas",
     "GraphDB/test.md",
