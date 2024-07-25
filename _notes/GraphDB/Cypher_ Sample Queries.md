@@ -55,3 +55,4 @@ DB : ArcadeDB, Neo4j Community (using Cypher / openCypher) <br>
 	- WHERE c.name='pooh' AND c.color= 'green'
 	- SET c = {name: 'christopher robin', age: 6}, c:Human
 	- RETURN c
+	- *Replace all**
