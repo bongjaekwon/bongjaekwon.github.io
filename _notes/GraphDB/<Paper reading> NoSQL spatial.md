@@ -6,7 +6,9 @@ date: 24-07-2024
 #### Posting information
 
 Posting Date : 24-07-2024  
+
 Last Edit : 24-07-2024  
+
 Writer : KWON Bongjae
 
 #### Paper information
