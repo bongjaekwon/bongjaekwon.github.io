@@ -149,6 +149,6 @@ DB : ArcadeDB, Neo4j Community 5.21.2 (using Cypher / openCypher) <br>
 - head(), last() 2
 	- MATCH path = (c:Character)-[f:Is_Friend_Of*1..2]-(d)
 	- WHERE c.name = 'Pooh'
-	- WITH [l in nodes(path) | l.name] as Character_list
+	- WITH [l in nodes(path) '|' l.name] as Character_list
 	- RETURN character_list, head(chracter_list).name, last(chracter_list).name
 <br><br>
