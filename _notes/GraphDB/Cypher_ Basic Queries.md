@@ -120,3 +120,26 @@ DB : ArcadeDB, Neo4j Community (using Cypher / openCypher) <br>
 	- MERGE (a:Age {value: c.age})
 	- MERGE (c)-[:How_Old_Are_You]->(a)
 	- RETURN c, a 
+<br><br>
+- INDEX 
+	- CREATE INDEX character_name FOR (c:Character) ON (c.name)
+	- single index creation**
+	<br><br>
+	- CREATE INDEX character_name FOR (c:Character) ON (c.name, c.age)
+	- multiple index creation**
+	<br><br>
+	- CALL db.indexes
+	- See index list**
+	<br><br>
+	- DROP INDEX character_name
+	- Delete index**
+<br><br>
+- CONSTRAINT 
+	- CREATE CONSTRAINT unique_character_name ON (c:Character) ASSERT c.name IS UNIQUE
+	- constraint creation**
+	<br><br>
+	- CALL db.constraints
+	- See constraint list**
+	<br><br>
+	- DROP CONSTRAINT unique_character_name
+	- Delete constraint**
