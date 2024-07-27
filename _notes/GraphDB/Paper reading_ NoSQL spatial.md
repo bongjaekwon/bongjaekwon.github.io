@@ -1,13 +1,13 @@
 ---
 title: Paper reading_ NoSQL spatial
 feed: show
-date: 24-07-2024
+date: 23-07-2024
 ---
 GraphDB vs RDB
 
 #### Posting information
 
-Posting Date : 24-07-2024  
+Posting Date : 23-07-2024  
 Last Edit : 24-07-2024  
 Writer : KWON Bongjae
 

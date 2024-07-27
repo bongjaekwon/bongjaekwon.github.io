@@ -1,14 +1,14 @@
 ---
 title: Cypher_ Basic
 feed: show
-date: 25-07-2024
+date: 24-07-2024
 ---
 The concept of Cypher
 
 #### Posting information
 
-Posting Date : 25-07-2024  
-Last Edit : 25-07-2024  
+Posting Date : 24-07-2024  
+Last Edit : 24-07-2024  
 Writer : KWON Bongjae
 
 #### Environment information

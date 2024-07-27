@@ -7,8 +7,8 @@ MATCH use cases
 
 #### Posting information
 
-Posting Date : 25-07-2024  
-Last Edit : 25-07-2024  
+Posting Date : 27-07-2024  
+Last Edit : 27-07-2024  
 Writer : KWON Bongjae
 
 #### Environment information

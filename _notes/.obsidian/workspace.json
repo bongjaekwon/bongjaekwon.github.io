@@ -38,7 +38,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "byModifiedTimeReverse"
               }
             }
           },
@@ -148,11 +148,11 @@
   },
   "active": "353468d0552c31c6",
   "lastOpenFiles": [
+    "GraphDB/Cypher_ Basic.md",
     "GraphDB/Cypher_ MATCH use cases.md",
+    "GraphDB/Paper reading_ NoSQL spatial.md",
     "GraphDB/Cypher_ Basic Queries.md",
     "Untitled.canvas",
-    "GraphDB/Cypher_ Basic.md",
-    "GraphDB/Paper reading_ NoSQL spatial.md",
     "Public/Welcome to the garden.md",
     "Public/Markdown Rendered.md",
     "Public/Hidden Note.md",
