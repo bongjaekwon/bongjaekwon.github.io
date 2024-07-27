@@ -72,3 +72,18 @@ DB : ArcadeDB, Neo4j Community 5.21.2 (using Cypher / openCypher) <br>
 	- WHERE d.name = 'Robin'
 	- RETURN c, d
 <br><br>
+- Matching nodes with relationship distances of 1 to 2
+	- MATCH (c:Character)-[f:Is_Friend_Of*1..2]-(d)
+	- WHERE d.name = 'Robin'
+	- RETURN c, f, d
+<br><br>
+- Returns path by matching nodes with distances of 1 to 2
+	- MATCH (c:Character)-[f:Is_Friend_Of*1..2]-(d)
+	- WHERE d.name = 'Robin'
+	- RETURN path
+<br><br>
+- shortestPath()
+	- MATCH path = shortestPath((c:Character)-[*]->(d))
+	- WHERE c.name = 'Pooh' AND d.name = 'Robin'
+	- RETURN path
+<br><br>
