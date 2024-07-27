@@ -93,3 +93,30 @@ DB : ArcadeDB, Neo4j Community (using Cypher / openCypher) <br>
 	- MATCH (c)
 	- DETACH DELETE c
 	- delete nodes and relationships**
+<br> <br>
+- MERGE
+	- MERGE (c {name: 'Pooh'})
+	- RETURN c
+	- if c exists then match, if not create**
+	<br><br>
+	- MATCH (c:Character)
+	- WHERE EXISTS(c.spicies)
+	- MERGE (s:Animal{scpicies : c.spicies})
+	- Node merge derived from property of existing node**
+	<br><br>
+	- MATCH (c:Character {name:'Pooh'}), (d:Character{name:'Robin'})
+	- MERGE (c)-[f:Is_Friend_Of]->(d)
+	- RETURN c.name, type(f), d.name
+	- same on relationships**
+	<br><br>
+	- MERGE (c:Character {name:'Robin'})
+	- ON CREATE SET c.age = 5
+	- ON MATCH SET c.age = 6
+	- RETURN c.name, c.age
+	- if then**
+	<br><br>
+	- MATCH (c:Character)
+	- WHERE c.age IS NOT NULL
+	- MERGE (a:Age {value: c.age})
+	- MERGE (c)-[:How_Old_Are_You]->(a)
+	- RETURN c, a 
