@@ -87,3 +87,68 @@ DB : ArcadeDB, Neo4j Community 5.21.2 (using Cypher / openCypher) <br>
 	- WHERE c.name = 'Pooh' AND d.name = 'Robin'
 	- RETURN path
 <br><br>
+- Return relationship & node types by matching nodes with distances of 1 to 2
+	- MATCH path = (c:Character)-[f:Is_Friend_Of*1..2]-(d)
+	- WHERE c.name = 'Pooh'
+	- RETURN c, [rel in relationships(path)] | type(rel)], d
+<br><br>
+- OPTIONAL MATCH
+	- MATCH path = (c:Character)-[f:Is_Friend_Of*1..2]-(d)
+	- WHERE c.name = 'Pooh'
+	- OPTIONAL MATCH (d)-[:Is_Family_Of]-(e)
+	- RETURN c, f, d, e
+<br><br>
+- ORDER BY
+	- MATCH path = (c:Character)-[f:Is_Friend_Of*1..2]-(d)
+	- WHERE c.name = 'Pooh'
+	- RETURN DISTINCT d.name, c.age
+	- ORDER BY d.age
+<br><br>
+- ORDER BY - DESC
+	- MATCH path = (c:Character)-[f:Is_Friend_Of*1..2]-(d)
+	- WHERE c.name = 'Pooh'
+	- RETURN DISTINCT d.name, c.age
+	- ORDER BY d.age DESC
+<br><br>
+- SKIP
+	- MATCH path = (c:Character)-[f:Is_Friend_Of*1..2]-(d)
+	- WHERE c.name = 'Pooh'
+	- RETURN DISTINCT d.name, c.age
+	- ORDER BY d.age DESC
+	- SKIP 2
+<br><br>
+- LIMIT
+	- MATCH path = (c:Character)-[f:Is_Friend_Of*1..2]-(d)
+	- WHERE c.name = 'Pooh'
+	- RETURN DISTINCT d.name, c.age
+	- ORDER BY d.age DESC
+	- SKIP 2
+	- LIMIT 3
+<br><br>
+- ALL()
+	- MATCH path = (c:Character)-[f:Is_Friend_Of*1..2]-(d)
+	- WHERE c.name = 'Pooh' AND ALL (x IN nodes(path) WHERE x.age > 5)
+	- RETURN DISTINCT c.name, d.name, d.age
+<br><br>
+- length()
+	- MATCH path = (c:Character)-[f:Is_Friend_Of*1..2]-(d)
+	- WHERE c.name = 'Pooh'
+	- RETURN length(path)
+<br><br>
+- nodes(), relationships() - Extracting nodes or relationships that exist in path
+	- MATCH path = (c:Character)-[f:Is_Friend_Of*1..2]-(d)
+	- WHERE EXISTS(c.name)
+	- RETURN nodes(path), relationships(path)
+<br><br>
+- head(), last()
+	- MATCH path = (c:Character)-[f:Is_Friend_Of*1..2]-(d)
+	- WHERE c.name = 'Pooh'
+	- WITH nodes(path) as chracter_list
+	- RETURN character_list, head(chracter_list).name, last(chracter_list).name
+<br><br>
+- head(), last() 2
+	- MATCH path = (c:Character)-[f:Is_Friend_Of*1..2]-(d)
+	- WHERE c.name = 'Pooh'
+	- WITH [l in nodes(path) | l.name] as Character_list
+	- RETURN character_list, head(chracter_list).name, last(chracter_list).name
+<br><br>
