@@ -26,7 +26,7 @@ DB : ArcadeDB, Neo4j Community (using Cypher / openCypher) <br>
 	- CREATE (a:Animation)
 	- CREATE (a:Animation {title: 'Winnie the Pooh'})
 	- CREATE (a:Animation {title: 'Winnie the Pooh', company: 'The Walt Disney Company'})
-	- CREATE (a:Animation {title: 'Winnie the Pooh'})<-[w:Written_by {when:26-10-20-1926}]-(p:Person {name: 'Alan Alexander Milne'})
+	- CREATE (a:Animation {title: 'Winnie the Pooh'})<-[w:Written_by {when:'26-10-20-1926'}]-(p:Person {name: 'Alan Alexander Milne'})
 <br> <br>
 - MATCH
 	- MATCH (a) RETURN a
@@ -62,3 +62,34 @@ DB : ArcadeDB, Neo4j Community (using Cypher / openCypher) <br>
 	- SET c += {emotion: 'sad'}
 	- RETURN c
 	- *Only add**
+<br> <br>
+- REMOVE
+	- MATCH (c {name: 'Pooh'})
+	- REMOVE c:Character
+	- RETURN c, labels(c)
+	- remove node label**
+	<br><br>
+	- MATCH (c{name: 'Pooh'})-[r:Is_Character_Of{role:'A Yellow Bear'}]->(a{title:'Winnie the Pooh'})
+	- REMOVE r.role
+	- RETURN c, r, a
+	- remove relationship label**
+	<br><br>
+	- MATCH (c)
+	- WHERE c.name= 'Pooh'
+	- RETURN c.name
+	- RETURN c
+	- remove node property label**
+<br><br>
+- DELETE
+	- MATCH (c {name: 'Pooh'})
+	- DELETE c
+	- RETURN c
+	- delete node**
+	<br><br>
+	- MATCH (c{name: 'Pooh'})-[r:Is_Character_Of{role:'A Yellow Bear'}]->(a{title:'Winnie the Pooh'})
+	- DELETE r
+	- delete relationship**
+	<br><br>
+	- MATCH (c)
+	- DETACH DELETE c
+	- delete nodes and relationships**
