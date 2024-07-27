@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GraphDB/Cypher_ Sample Queries.md",
+                "file": "GraphDB/Cypher_ MATCH use cases.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GraphDB/Cypher_ Sample Queries.md",
+                "file": "GraphDB/Cypher_ MATCH use cases.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GraphDB/Cypher_ Sample Queries.md",
+                "file": "GraphDB/Cypher_ MATCH use cases.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GraphDB/Cypher_ Sample Queries.md"
+                "file": "GraphDB/Cypher_ MATCH use cases.md"
               }
             }
           }
@@ -146,10 +146,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9957c382509e88cd",
+  "active": "353468d0552c31c6",
   "lastOpenFiles": [
+    "GraphDB/Cypher_ Basic Queries.md",
+    "GraphDB/Cypher_ MATCH use cases.md",
     "GraphDB/Cypher_ Basic.md",
-    "GraphDB/Cypher_ Sample Queries.md",
     "GraphDB/Paper reading_ NoSQL spatial.md",
     "Public/Welcome to the garden.md",
     "Public/Markdown Rendered.md",

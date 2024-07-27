@@ -1,5 +1,5 @@
 ---
-title: Cypher_ Sample Queries
+title: Cypher_ Basic Queries
 feed: show
 date: 25-07-2024
 ---
