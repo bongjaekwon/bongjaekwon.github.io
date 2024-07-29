@@ -1,5 +1,5 @@
 ---
-title: Cypher_ neo4j osm
+title: Cypher_ osm
 feed: show
 date: 30-07-2024
 ---
