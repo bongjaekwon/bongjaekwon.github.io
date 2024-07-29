@@ -16,215 +16,119 @@ Create basic nodes and relationships
 - Hardware : MacBookPro8,2(late 11) /  8 × Intel® Core™ i7-2675QM CPU @ 2.20GHz / RAM 15.5 GiB / Mesa Intel® HD Graphics 3000 <br>
 - OS : Linux(openSUSE Tumbleweed 20240716) <br>
 - DB : ArcadeDB, Neo4j Community 5.21.2 (using Cypher / openCypher) <br> 
-
 #### Posting detail
 
+- basic
+
 ```
-from neo4j import GraphDatabase, RoutingControl
+import neo4j
+import osmnx as ox
 
-  
-  
+NEO4J_URI = "neo4j://localhost:"
+NEO4J_USER = "neo4j"
+NEO4J_PASSWORD = ""
 
-URI = "neo4j://localhost:   "
+driver = neo4j.GraphDatabase.driver(NEO4J_URI, auth=(NEO4J_USER, NEO4J_PASSWORD))
+```
+<br><br>
+- Search OpenStreetMap and create a OSMNx graph
 
-AUTH = ("   ", "   ")
+```
+G = ox.graph_from_place("Busanjin-gu", network_type="drive")
+fig, ax = ox.plot_graph(G)
 
-  
-  
+gdf_nodes, gdf_relationships = ox.graph_to_gdfs(G)
+gdf_nodes.reset_index(inplace=True)
+gdf_relationships.reset_index(inplace=True)
 
-def add_friend(driver, name, friend_name):
+gdf_nodes.plot(markersize=0.1)
+gdf_nodes
 
-driver.execute_query(
+gdf_relationships.plot(markersize=0.01, linewidth=0.5)
+gdf_relationships
+```
+<br>
+![](https://lh3.googleusercontent.com/pw/AP1GczPpwAnU1wzj09i2HaNkC43dQQbqWtDqAF0gPwtKA_aJ_ucyAMSOa1cGxFf0jQEoRyRJ4roj3WGPX1e7jjADC1718JUApNbVtOZWRgzvkP1E6NE4sZ3hIPRSLquD_Rd6D9bIP2_1ge_nK7AZnd8ns9FRCw=w794-h783-s-no?authuser=0)
+<br>
+- define Cypher queries to create constraints and indexes
 
-"MERGE (a:Character {name: $name}) "
+```
+constraint_query = "CREATE CONSTRAINT IF NOT EXISTS FOR (i:Intersection) REQUIRE i.osmid IS UNIQUE"
 
-"MERGE (friend:Character {name: $friend_name}) "
+rel_index_query = "CREATE INDEX IF NOT EXISTS FOR ()-[r:ROAD_SEGMENT]-() ON r.osmids"
 
-"MERGE (a)-[:Is_friend_Of]->(friend)",
+address_constraint_query = "CREATE CONSTRAINT IF NOT EXISTS FOR (a:Address) REQUIRE a.id IS UNIQUE"
 
-name=name, friend_name=friend_name, database_="neo4j",
-
-)
-
-  
-  
-
-def print_friends(driver, name):
-
-records, _, _ = driver.execute_query(
-
-"MATCH (a:Person)-[:Is_Friend_Of]->(friend) WHERE a.name = $name "
-
-"RETURN friend.name ORDER BY friend.name",
-
-name=name, database_="neo4j", routing_=RoutingControl.READ,
-
-)
-
-for record in records:
-
-print(record["friend.name"])
-
-  
-  
-
-with GraphDatabase.driver(URI, auth=AUTH) as driver:
-
-add_friend(driver, "Pooh", "Piglet")
-
-add_friend(driver, "Pooh", "Robin")
-
-add_friend(driver, "Robin", "Alice")
-
-print_friends(driver, "Robin")
+point_index_query = "CREATE POINT INDEX IF NOT EXISTS FOR (i:Intersection) ON i.location"
 ```
 <br>
 <br>
+- Query to import our road network nodes GeoDataFrame
+
 ```
-import logging
-
-  
-
-from neo4j import GraphDatabase, RoutingControl
-
-from neo4j.exceptions import DriverError, Neo4jError
-
-  
-  
-
-class App:
-
-  
-
-def __init__(self, uri, user, password, database=None):
-
-self.driver = GraphDatabase.driver(uri, auth=(user, password))
-
-self.database = database
-
-  
-
-def close(self):
-
-self.driver.close()
-
-  
-
-def create_friendship(self, chracter_1, charcter_2):
-
-with self.driver.session() as session:
-
-result = self._create_and_return_friendship(
-
-chracter_1, charcter_2
-
-)
-
-print("Created friendship between: "
-
-f"{result['p1']}, {result['p2']}")
-
-  
-
-def _create_and_return_friendship(self, character_1, character_2):
-
-  
-
-query = (
-
-"CREATE (c1:Character { name: $character_1 }) "
-
-"CREATE (c2:Chracter { name: $character_2 }) "
-
-"CREATE (c1)-[:KNOWS]->(c2) "
-
-"RETURN c1.name, c2.name"
-
-)
-
-try:
-
-record = self.driver.execute_query(
-
-query, character_1=character_1, character_2=character_2,
-
-database_=self.database,
-
-result_transformer_=lambda r: r.single(strict=True)
-
-)
-
-return {"p1": record["c1.name"], "p2": record["c2.name"]}
-
-except (DriverError, Neo4jError) as exception:
-
-logging.error("%s raised an error: \n%s", query, exception)
-
-raise
-
-  
-
-def find_character(self, character_name):
-
-names = self._find_and_return_person(character_name)
-
-for name in names:
-
-print(f"Found character: {name}")
-
-  
-
-def _find_and_return_person(self, character_name):
-
-query = (
-
-"MATCH (p:Person) "
-
-"WHERE p.name = $character_name "
-
-"RETURN p.name AS name"
-
-)
-
-names = self.driver.execute_query(
-
-query, character_name=character_name,
-
-database_=self.database, routing_=RoutingControl.READ,
-
-result_transformer_=lambda r: r.value("name")
-
-)
-
-return names
-
-  
-
-if __name__ == "__main__":
-
-scheme = "neo4j"
-
-host_name = "localhost"
-
-port = 7687
-
-uri = f"{scheme}://{host_name}:{port}"
-
-user = "neo4j"
-
-password = "   "
-
-database = "   "
-
-app = App(uri, user, password, database)
-
-try:
-
-app.create_friendship("Pooh", "Robin")
-
-app.find_character("Pooh")
-
-finally:
-
-app.close()
+node_query = '''
+	UNWIND $rows AS row
+	WITH row WHERE row.osmid IS NOT NULL
+	MERGE (i:Intersection {osmid: row.osmid})
+		SET i.location =
+			point({latitude: row.y, longitude: row.x }),
+				i.ref = row.ref,
+				i.highway = row.highway,
+				i.street_count = toInteger(row.street_count)
+	RETURN COUNT(*) as total
+
+'''
 ```
+<br>
+<br>
+- Query to import our road network relationships GeoDataFrame
+
+```
+rels_query = '''
+UNWIND $rows AS road
+MATCH (u:Intersection {osmid: road.u})
+MATCH (v:Intersection {osmid: road.v})
+MERGE (u)-[r:ROAD_SEGMENT {osmid: road.osmid}]->(v)
+SET r.oneway = road.oneway,
+r.lanes = road.lanes,
+r.ref = road.ref,
+r.name = road.name,
+r.highway = road.highway,
+r.max_speed = road.maxspeed,
+r.length = toFloat(road.length)
+RETURN COUNT(*) AS total
+'''
+ 
+def create_constraints(tx):
+results = tx.run(constraint_query)
+results = tx.run(rel_index_query)
+results = tx.run(address_constraint_query)
+results = tx.run(point_index_query)
+
+def insert_data(tx, query, rows, batch_size=10000):
+total = 0
+batch = 0
+
+while batch * batch_size < len(rows):
+results = tx.run(query, parameters = {'rows': rows[batch*batch_size:(batch+1)*batch_size].to_dict('records')}).data()
+
+print(results)
+total += results[0]['total']
+batch += 1
+
+with driver.session() as session:
+session.execute_write(create_constraints)
+session.execute_write(insert_data, node_query, gdf_nodes.drop(columns=['geometry'])) #FIXME: handle
+```
+<br>
+<br>
+- Run our relationships GeoDataFrame import
+
+```
+with driver.session() as session:
+
+session.execute_write(insert_data, rels_query, gdf_relationships.drop(columns=['geometry'])) #FIXME: handle geometry
+```
+<br>
+<br>
+![](https://lh3.googleusercontent.com/pw/AP1GczMescJymPxr6WWiU020Ye6YIoXo16TNCdCqv2M8hBWPD0T4mqDGIjKWtfkqyvaT54YONbU3Bb1FK0cQe2ycid6o-eV5fT75U7VbUxNwmRkgDniId3KPnyAVeyNvEJm7qdw2OOBXHt4SJHmhZjqolhjd6A=w1440-h779-s-no?authuser=0)
