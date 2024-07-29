@@ -23,4 +23,35 @@ Handling spatial values & functions
 	- CREATE (y:University {longitude: 126.93691, latitude: 37.56025, name: 'Yonsei university'}), (s:University {longitude: 126.95195, latitude: 37.45263, name: 'Seoul national university'}), (y)-[:From_to]->(s)
 <br><br>
 - point.distance()
-	- 
+	- point.distance(point1, point2) 
+	- return type is FLOAT** <br>
+	- WITH point({x: 2.3, y: 4.5, crs: 'cartesian'}) AS p1, point({x: 1.1, y: 5.4, crs: 'cartesian'}) AS p2
+	- RETURN point.distance(p1,p2) AS distance 
+	- distance between 2d points**<br> 
+	- WITH point({longitude: 12.78, latitude: 56.7, height: 100}) AS p1, point({latitude: 56.71, longitude: 12.79, height: 100}) AS p2
+	- RETURN point.distance(p1,p2) AS distance
+	- distance between 3d points**<br>
+	- MATCH (y:University{name:'Yonsei university'})-[:From_to]->(s:University{name:'Seoul national university'})
+	- WITH point({longitude: y.longitude, latitude: y.latitude}) AS PointYonsei, point({longitude: s.longitude, latitude: s.latitude}) AS PointSNU
+	- RETURN round(point.distance(PointYonsei, PointSNU)) AS GraduateDistance
+<br><br> 
+- point.withinBBox()
+	- point.withinBBox(point, lowerLeft, upperRight)
+	- return type is BOOLEAN** <br>
+	- WITH point({x: 0, y: 0, crs: 'cartesian'}) AS lowerLeft, point({x: 10, y: 10, crs: 'cartesian'}) AS upperRight
+	- RETURN point.withinBBox(point({x: 5, y: 5, crs: 'cartesian'}), lowerLeft, upperRight) AS result
+	- return value is TRUE**<br> 
+	- WITH point({longitude: 124, latitude: 33}) AS lowerLeft, point({longitude: 132, latitude: 43}) AS upperRight
+	- MATCH (u:University)
+	- WHERE point.withinBBox(point({longitude: u.longitude, latitude: u.latitude}), lowerLeft, upperRight) 
+	- RETURN count()
+	- finds all universities in  a bounding box around Korea** 
+<br> <br>
+- point()
+	- RETURN point({longitude: 127, latitude: 34}) AS point
+	- RETURN point({longitude: 127, latitude: 34, crs: 'WGS-84'}) AS point
+
+	- MATCH (u:University)
+	- RETURN point({longitude: u.longitude, latitude: u.latitude, crs: 'WGS-84'}) AS universityPoint 
+	- point({srid:4326, x:126.93691, y:37.56025})**
+	- point({srid:4326, x:126.95195, y:37.45263})**
