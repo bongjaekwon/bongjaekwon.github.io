@@ -1,14 +1,14 @@
 ---
 title: Cypher_ neo4j osm import
 feed: show
-date: 29-07-2024
+date: 30-07-2024
 ---
 Working With Road Network Data and Routing With Graph Algorithms
 
 #### Posting information
 
-- Posting Date : 29-07-2024  
-- Last Edit : 29-07-2024  
+- Posting Date : 30-07-2024  
+- Last Edit : 30-07-2024  
 - Writer : KWON Bongjae
 
 #### Environment information
