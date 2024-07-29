@@ -20,18 +20,6 @@
             }
           },
           {
-            "id": "071cacbb166a07cc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GraphDB/1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "43a716ae3c64648b",
             "type": "leaf",
             "state": {
@@ -44,7 +32,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -173,9 +161,9 @@
   },
   "active": "43a716ae3c64648b",
   "lastOpenFiles": [
-    "GraphDB/1.md",
     "GraphDB/2.md",
     "GraphDB/Cypher_ osm integration.md",
+    "GraphDB/1.md",
     "GraphDB/Cypher_ neo4j python driver.md",
     "GraphDB/Cypher_ osm.md",
     "GraphDB/Cypher_ osm 1.md",
