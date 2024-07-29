@@ -212,9 +212,9 @@ uri = f"{scheme}://{host_name}:{port}"
 
 user = "neo4j"
 
-password = "11thleader!"
+password = "   "
 
-database = "neo4j"
+database = "   "
 
 app = App(uri, user, password, database)
 
