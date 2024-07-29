@@ -1,6 +1,6 @@
 ---
 title: Cypher_ osm integration
-feed: show
+feed: hide
 date: 30-07-2024
 ---
 Working With .osm Road Network Data
