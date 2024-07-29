@@ -18,7 +18,7 @@ Handling spatial values & functions
 - DB : ArcadeDB, Neo4j Community 5.21.2 (using Cypher / openCypher) <br> 
 
 #### Posting detail
-<br>
+
 - CREATE
 	- CREATE (y:University {longitude: 126.93691, latitude: 37.56025, name: 'Yonsei university'}), (s:University {longitude: 126.95195, latitude: 37.45263, name: 'Seoul national university'}), (y)-[:From_to]->(s)
 <br><br>
