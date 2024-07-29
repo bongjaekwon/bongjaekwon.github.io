@@ -3,7 +3,7 @@ title: Cypher_ osm to neo4j
 feed: show
 date: 29-07-2024
 ---
-Create basic nodes and relationships
+Working With .osm Road Network Data
 
 #### Posting information
 
