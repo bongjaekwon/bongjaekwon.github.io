@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1.md",
+                "file": "GraphDB/1.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1.md",
+                "file": "GraphDB/1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1.md",
+                "file": "GraphDB/1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1.md"
+                "file": "GraphDB/1.md"
               }
             }
           }
@@ -162,7 +162,7 @@
   "active": "071cacbb166a07cc",
   "lastOpenFiles": [
     "GraphDB/Cypher_ osm integration.md",
-    "1.md",
+    "GraphDB/1.md",
     "GraphDB/Cypher_ neo4j python driver.md",
     "GraphDB/Cypher_ osm.md",
     "GraphDB/Cypher_ osm 1.md",
