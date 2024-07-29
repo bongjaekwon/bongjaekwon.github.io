@@ -1,5 +1,5 @@
 ---
-title: Cypher_ neo4j osm integration
+title: Cypher_ osm to neo4j
 feed: show
 date: 30-07-2024
 ---

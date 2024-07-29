@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GraphDB/Cypher_ neo4j osm integration.md",
+                "file": "GraphDB/Cypher_ osm to neo4j.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "d23d32c93143dbbf",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GraphDB/Cypher_ neo4j osm integration.md",
+                "file": "GraphDB/Cypher_ osm to neo4j.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GraphDB/Cypher_ neo4j osm integration.md",
+                "file": "GraphDB/Cypher_ osm to neo4j.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GraphDB/Cypher_ neo4j osm integration.md"
+                "file": "GraphDB/Cypher_ osm to neo4j.md"
               }
             }
           }
@@ -148,8 +149,8 @@
   },
   "active": "353468d0552c31c6",
   "lastOpenFiles": [
-    "GraphDB/Cypher_ neo4j osm integration.md",
-    "GraphDB/Cypher_ neo4j osm integration.md",
+    "GraphDB/Cypher_ osm to neo4j.md",
+    "GraphDB/Cypher_ osm to neo4j.md",
     "GraphDB/Cypher_ neo4j osm.md",
     "GraphDB/Paper reading_ NoSQL spatial.md",
     "GraphDB/Cypher_ neo4j python driver.md",
