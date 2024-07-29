@@ -3,7 +3,7 @@ title: Cypher_ neo4j python driver
 feed: show
 date: 29-07-2024
 ---
-Handling spatial values & functions
+Creat basic nodes and relationships
 
 #### Posting information
 
@@ -18,7 +18,7 @@ Handling spatial values & functions
 - DB : ArcadeDB, Neo4j Community 5.21.2 (using Cypher / openCypher) <br> 
 
 #### Posting detail
-Creat basic nodes and relationships
+
 ```
 from neo4j import GraphDatabase, RoutingControl
 
