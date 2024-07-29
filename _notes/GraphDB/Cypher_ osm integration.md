@@ -1,5 +1,5 @@
 ---
-title: Cypher_ osm
+title: Cypher_ osm integration
 feed: show
 date: 30-07-2024
 ---
