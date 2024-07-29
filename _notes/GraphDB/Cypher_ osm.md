@@ -3,7 +3,7 @@ title: Cypher_ osm
 feed: show
 date: 30-07-2024
 ---
-Working With Road Network Data and Routing With Graph Algorithms
+Working With .osm Road Network Data
 
 #### Posting information
 
