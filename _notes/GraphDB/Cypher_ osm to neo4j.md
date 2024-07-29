@@ -1,8 +1,3 @@
----
-title: Cypher_ osm to neo4j
-feed: show
-date: 30-07-2024
----
 Working With Road Network Data and Routing With Graph Algorithms
 
 #### Posting information
