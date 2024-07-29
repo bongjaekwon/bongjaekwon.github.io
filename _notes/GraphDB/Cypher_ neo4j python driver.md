@@ -3,7 +3,7 @@ title: Cypher_ neo4j python driver
 feed: show
 date: 29-07-2024
 ---
-Creat basic nodes and relationships
+Create basic nodes and relationships
 
 #### Posting information
 
