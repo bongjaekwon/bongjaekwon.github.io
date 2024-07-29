@@ -25,9 +25,9 @@ from neo4j import GraphDatabase, RoutingControl
   
   
 
-URI = "neo4j://localhost:7687"
+URI = "neo4j://localhost:   "
 
-AUTH = ("neo4j", "11thleader!")
+AUTH = ("   ", "   ")
 
   
   
