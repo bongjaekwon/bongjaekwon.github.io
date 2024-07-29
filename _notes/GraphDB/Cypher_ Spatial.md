@@ -51,7 +51,6 @@ Handling spatial values & functions
 	- RETURN point({longitude: 127, latitude: 34}) AS point
 	- RETURN point({longitude: 127, latitude: 34, crs: 'WGS-84'}) AS point
 
-	- MATCH (u:University)
-	- RETURN point({longitude: u.longitude, latitude: u.latitude, crs: 'WGS-84'}) AS universityPoint 
+	- MATCH (u:University) RETURN point({longitude: u.longitude, latitude: u.latitude, crs: 'WGS-84'}) AS universityPoint 
 	- point({srid:4326, x:126.93691, y:37.56025})**
 	- point({srid:4326, x:126.95195, y:37.45263})**
