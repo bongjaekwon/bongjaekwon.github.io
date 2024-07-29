@@ -20,6 +20,7 @@ Working With Road Network Data and Routing With Graph Algorithms
 #### Posting detail
 
 - basic
+
 ```
 import neo4j
 import osmnx as ox
@@ -32,6 +33,7 @@ driver = neo4j.GraphDatabase.driver(NEO4J_URI, auth=(NEO4J_USER, NEO4J_PASSWORD)
 ```
 <br><br>
 - Search OpenStreetMap and create a OSMNx graph
+
 ```
 G = ox.graph_from_place("Busanjin-gu", network_type="drive")
 fig, ax = ox.plot_graph(G)
@@ -46,9 +48,11 @@ gdf_nodes
 gdf_relationships.plot(markersize=0.01, linewidth=0.5)
 gdf_relationships
 ```
-<br>![](https://lh3.googleusercontent.com/pw/AP1GczPpwAnU1wzj09i2HaNkC43dQQbqWtDqAF0gPwtKA_aJ_ucyAMSOa1cGxFf0jQEoRyRJ4roj3WGPX1e7jjADC1718JUApNbVtOZWRgzvkP1E6NE4sZ3hIPRSLquD_Rd6D9bIP2_1ge_nK7AZnd8ns9FRCw=w794-h783-s-no?authuser=0)
+<br>
+![](https://lh3.googleusercontent.com/pw/AP1GczPpwAnU1wzj09i2HaNkC43dQQbqWtDqAF0gPwtKA_aJ_ucyAMSOa1cGxFf0jQEoRyRJ4roj3WGPX1e7jjADC1718JUApNbVtOZWRgzvkP1E6NE4sZ3hIPRSLquD_Rd6D9bIP2_1ge_nK7AZnd8ns9FRCw=w794-h783-s-no?authuser=0)
 <br>
 - define Cypher queries to create constraints and indexes
+
 ```
 constraint_query = "CREATE CONSTRAINT IF NOT EXISTS FOR (i:Intersection) REQUIRE i.osmid IS UNIQUE"
 
@@ -61,6 +65,7 @@ point_index_query = "CREATE POINT INDEX IF NOT EXISTS FOR (i:Intersection) ON i.
 <br>
 <br>
 - Query to import our road network nodes GeoDataFrame
+
 ```
 node_query = '''
 	UNWIND $rows AS row
@@ -78,6 +83,7 @@ node_query = '''
 <br>
 <br>
 - Query to import our road network relationships GeoDataFrame
+
 ```
 rels_query = '''
 UNWIND $rows AS road
@@ -118,6 +124,7 @@ session.execute_write(insert_data, node_query, gdf_nodes.drop(columns=['geometry
 <br>
 <br>
 - Run our relationships GeoDataFrame import
+
 ```
 with driver.session() as session:
 
