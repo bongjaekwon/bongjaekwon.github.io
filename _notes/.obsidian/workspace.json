@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GraphDB/Cypher_ neo4j osm.md",
+                "file": "GraphDB/Cypher_ neo4j osm integration.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GraphDB/Cypher_ neo4j osm.md",
+                "file": "GraphDB/Cypher_ neo4j osm integration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GraphDB/Cypher_ neo4j osm.md",
+                "file": "GraphDB/Cypher_ neo4j osm integration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GraphDB/Cypher_ neo4j osm.md"
+                "file": "GraphDB/Cypher_ neo4j osm integration.md"
               }
             }
           }
@@ -148,8 +148,9 @@
   },
   "active": "353468d0552c31c6",
   "lastOpenFiles": [
-    "GraphDB/Paper reading_ NoSQL spatial.md",
     "GraphDB/Cypher_ neo4j osm.md",
+    "GraphDB/Cypher_ neo4j osm integration.md",
+    "GraphDB/Paper reading_ NoSQL spatial.md",
     "GraphDB/Cypher_ neo4j python driver.md",
     "Public/Markdown Rendered.md",
     "Public/Welcome to the garden.md",
