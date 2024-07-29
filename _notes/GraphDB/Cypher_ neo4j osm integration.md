@@ -1,7 +1,7 @@
 ---
 title: Cypher_ neo4j osm integration
 feed: show
-date: 30-07-2024
+date: 29-07-2024
 ---
 Working With Road Network Data and Routing With Graph Algorithms
 
