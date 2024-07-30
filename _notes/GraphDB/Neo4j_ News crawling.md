@@ -122,7 +122,7 @@ text = re.sub(pattern='[^a-zA-Z0-9ㄱ-ㅣ가-힣]', repl='', string=text)
 return text
 df['title_c_neo4j'] = df.apply(clean_text_for_neo4j, axis=1)
 
-greeter = GraphDatabase.driver("neo4j://localhost:7687", auth=("neo4j", "11thleader!"))
+greeter = GraphDatabase.driver("neo4j://localhost:7687", auth=("neo4j", "   "))
 
 with greeter.session() as session:
 for idx in range(len(df)):

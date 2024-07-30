@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GraphDB/Cypher_ neo4j python driver.md",
+                "file": "GraphDB/Neo4j_ News crawling.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -159,11 +158,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "43a716ae3c64648b",
+  "active": "b10b4b4961a59758",
   "lastOpenFiles": [
-    "GraphDB/Cypher_ osm to neo4j.md",
-    "GraphDB/Neo4j_ News crawling.md",
     "GraphDB/Cypher_ neo4j python driver.md",
+    "GraphDB/Neo4j_ News crawling.md",
+    "GraphDB/Cypher_ osm to neo4j.md",
     "GraphDB/Cypher_ osm integration.md",
     "GraphDB/2.md",
     "GraphDB/1.md",
