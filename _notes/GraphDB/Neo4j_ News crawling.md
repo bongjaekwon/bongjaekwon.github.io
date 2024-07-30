@@ -96,7 +96,7 @@ df = df[df['media'] != '코리아헤럴드'] # 코리아헤럴드는 영어 제�
 df = df[df['media'] != '주간경향'] # 주간경향은 같은 title이 많음
 ```
 <br><br>
-- Search OpenStreetMap and create a OSMNx graph
+- Neo4j import
 
 ```
 from neo4j import GraphDatabase
