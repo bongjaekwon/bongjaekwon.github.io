@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GraphDB/NLP_Stemming&Lemmatization.md",
+                "file": "GraphDB/NLP_Stopword.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GraphDB/NLP_Stemming&Lemmatization.md",
+                "file": "GraphDB/NLP_Stopword.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GraphDB/NLP_Stemming&Lemmatization.md",
+                "file": "GraphDB/NLP_Stopword.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GraphDB/NLP_Stemming&Lemmatization.md"
+                "file": "GraphDB/NLP_Stopword.md"
               }
             }
           }
@@ -160,8 +160,9 @@
   },
   "active": "b10b4b4961a59758",
   "lastOpenFiles": [
-    "GraphDB/NLP_Tokenization.md",
     "GraphDB/NLP_Stemming&Lemmatization.md",
+    "GraphDB/NLP_Stopword.md",
+    "GraphDB/NLP_Tokenization.md",
     "GraphDB/Neo4j_ News crawling.md",
     "GraphDB/Paper reading_ NoSQL spatial.md",
     "Untitled.canvas",
