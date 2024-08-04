@@ -44,4 +44,51 @@ r.search("poh") #<re.Match object; span=(0, 3), match='poh'>
 
 r.search("pooh") # nothing printed
 
+  
+
+#3) *
+
+  
+
+r=re.compile("poo*h")
+
+r.search("poh") #<re.Match object; span=(0, 2), match='ph'>
+
+r.search("pooh") #<re.Match object; span=(0, 4), match='pooh'>
+
+r.search("poooh") #<re.Match object; span=(0, 5), match='poooh'>
+
+  
+
+#4) +
+
+  
+
+r=re.compile("poo+h")
+
+r.search("poh") #nothing returned
+
+r.search("pooh") #<re.Match object; span=(0, 4), match='pooh'>
+
+r.search("poooh") #<re.Match object; span=(0, 5), match='poooh'>
+
+  
+
+#5) ^
+
+  
+
+r=re.compile("^p")
+
+r.search("owl") #nothing returned
+
+r.search("robin") #nothing returned
+
+r.search("piglet") #<re.Match object; span=(0, 1), match='p'>
+
+r.search("pooh") #<re.Match object; span=(0, 1), match='p'>
+
+  
+
+#6) {number}
 ```
