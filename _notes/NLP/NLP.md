@@ -11,3 +11,4 @@ date: 31-07-2024
 - [[NLP(4) Regular Expression]]
 - [[NLP(5) Integer Encoding]]
 - [[NLP(6) Padding]]
+- [[NLP(7) One Hot Encoding]]
