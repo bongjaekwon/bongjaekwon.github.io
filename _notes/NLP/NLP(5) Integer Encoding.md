@@ -129,4 +129,119 @@ word_to_index[word] = i
 print(word_to_index)
 
 #{'pooh': 1, '_tra-la-la': 2}
+
+  
+
+vocab_size = 1
+
+words_frequency = [word for word, index in word_to_index.items() if index >= vocab_size + 1 ]
+
+  
+
+for w in words_frequency:
+
+del word_to_index[w]
+
+print(word_to_index)
+
+#{'pooh': 1}
+
+  
+  
+
+word_to_index['OOV'] = len(word_to_index) + 1 #Out-Of-Vocabulary
+
+print(word_to_index)
+
+#{'pooh': 1, 'OOV': 2}
+
+  
+
+encoded_sentences = []
+
+for sentence in preprocessed_sentences:
+
+encoded_sentences = []
+
+for word in sentence:
+
+try:
+
+encoded_sentences.append(word_to_index[word])
+
+except KeyError:
+
+encoded_sentences.append(word_to_index['OOV'])
+
+  
+  
+
+encoded_sentences.append(encoded_sentences)
+
+print(encoded_sentences)
+
+#[1, 2, 2, 2, 2, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, [...]] ***?
+
+  
+  
+
+#2) Counter
+
+  
+
+from collections import Counter
+
+print(preprocessed_sentences)
+
+#[['edward', 'bear', 'known', 'friends', 'winnie-the-pooh', 'pooh', 'short', 'walking', 'forest', 'one', 'day', 'humming', 'proudly'], ['pooh', 'made', 'little', 'hum', 'morning', 'pooh', 'stoutness', 'exercises', 'front', 'glass', '_tra-la-la', 'tra-la-la_', 'stretched', 'high', 'could', '_tra-la-la', 'tra-la', 'help', 'la_', 'tried', 'reach', 'toes']]
+
+  
+
+all_words_list = sum(preprocessed_sentences, [])
+
+print(all_words_list)
+
+#['edward', 'bear', 'known', 'friends', 'winnie-the-pooh', 'pooh', 'short', 'walking', 'forest', 'one', 'day', 'humming', 'proudly', 'pooh', 'made', 'little', 'hum', 'morning', 'pooh', 'stoutness', 'exercises', 'front', 'glass', '_tra-la-la', 'tra-la-la_', 'stretched', 'high', 'could', '_tra-la-la', 'tra-la', 'help', 'la_', 'tried', 'reach', 'toes']
+
+  
+
+vocab = Counter(all_words_list)
+
+print(vocab)
+
+#Counter({'pooh': 3, '_tra-la-la': 2, 'edward': 1, 'bear': 1, 'known': 1, 'friends': 1, 'winnie-the-pooh': 1, 'short': 1, 'walking': 1, 'forest': 1, 'one': 1, 'day': 1, 'humming': 1, 'proudly': 1, 'made': 1, 'little': 1, 'hum': 1, 'morning': 1, 'stoutness': 1, 'exercises': 1, 'front': 1, 'glass': 1, 'tra-la-la_': 1, 'stretched': 1, 'high': 1, 'could': 1, 'tra-la': 1, 'help': 1, 'la_': 1, 'tried': 1, 'reach': 1, 'toes': 1})
+
+  
+
+print(vocab["pooh"])
+
+#3
+
+  
+
+vocab_size = 3
+
+vocab = vocab.most_common(vocab_size)
+
+print(vocab)
+
+#[('pooh', 3), ('_tra-la-la', 2), ('edward', 1)]
+
+  
+
+word_to_index = {}
+
+i = 0
+
+for (word, frequency) in vocab :
+
+i = i + 1
+
+word_to_index[word] = i
+
+  
+
+print(word_to_index)
+
+#{'pooh': 1, '_tra-la-la': 2, 'edward': 3}
 ```
