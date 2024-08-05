@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "nlp",
+  "search": "",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -13,10 +13,10 @@
   "nodeSizeMultiplier": 2.26145454545455,
   "lineSizeMultiplier": 2.47090909090909,
   "collapse-forces": false,
-  "centerStrength": 0.436289424860853,
-  "repelStrength": 10,
-  "linkStrength": 1,
+  "centerStrength": 0.322374768089054,
+  "repelStrength": 20,
+  "linkStrength": 0.70708719851577,
   "linkDistance": 250,
-  "scale": 0.6906395020147841,
+  "scale": 0.15712926310286657,
   "close": false
 }

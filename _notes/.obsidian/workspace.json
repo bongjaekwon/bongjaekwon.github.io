@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GraphDB/Cypher.md",
+                "file": "NLP/NLP(8) Splitting Data.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GraphDB/Cypher.md",
+                "file": "NLP/NLP(8) Splitting Data.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GraphDB/Cypher.md",
+                "file": "NLP/NLP(8) Splitting Data.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GraphDB/Cypher.md"
+                "file": "NLP/NLP(8) Splitting Data.md"
               }
             }
           }
@@ -150,14 +150,17 @@
   "active": "b10b4b4961a59758",
   "lastOpenFiles": [
     "NLP/NLP.md",
+    "NLP/NLP(8) Splitting Data.md",
+    "NLP/NLP(2) Stemming & Lemmatization.md",
+    "NLP/NLP(1) Tokenization.md",
+    "GraphDB/Neo4j(1) News crawling.md",
+    "NLP/NLP(7) One Hot Encoding.md",
+    "GraphDB/Cypher.md",
     "2024-08-05.md",
     "Untitled 2.canvas",
     "GraphDB/Paper reading - NoSQL spatial.md",
-    "NLP/NLP(2) Stemming & Lemmatization.md",
     "Untitled 1.canvas",
-    "NLP/NLP(1) Tokenization.md",
     "GraphDB/Cypher(4) CSV.md",
-    "NLP/NLP(7) One Hot Encoding.md",
     "NLP/NLP(6) Padding.md",
     "Public/Hidden Note.md",
     "Public/Markdown Rendered.md",
@@ -167,13 +170,11 @@
     "NLP/NLP(3) Stopword.md",
     "NLP/NLP(2) Stemming & Lemmatization 1.md",
     "Untitled.canvas",
-    "GraphDB/Cypher.md",
     "NLP/NLP 1.md",
     "GraphDB/Cypher(1) Basic.md",
     "GraphDB/Cypher(6) neo4j python driver.md",
     "NLP/NLP(5) Integer Encoding.md",
     "NLP/NLP(4) Regular Expression.md",
-    "GraphDB/Neo4j(1) News crawling.md",
     "GraphDB/Cypher(7) OSM to Neo4j.md",
     "GraphDB/Cypher(5) Spatial.md",
     "GraphDB/Cypher(3) MATCH use cases.md",
