@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NLP/NLP(2) Stemming & Lemmatization 1.md",
+                "file": "NLP/NLP.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NLP/NLP(2) Stemming & Lemmatization 1.md",
+                "file": "NLP/NLP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NLP/NLP(2) Stemming & Lemmatization 1.md",
+                "file": "NLP/NLP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NLP/NLP(2) Stemming & Lemmatization 1.md"
+                "file": "NLP/NLP.md"
               }
             }
           }
@@ -148,11 +148,13 @@
   },
   "active": "b10b4b4961a59758",
   "lastOpenFiles": [
+    "NLP/NLP(1) Tokenization.md",
+    "NLP/NLP(2) Stemming & Lemmatization.md",
+    "NLP/NLP(3) Stopword.md",
     "NLP/NLP.md",
     "NLP/NLP(2) Stemming & Lemmatization 1.md",
-    "NLP/NLP(2) Stemming & Lemmatization.md",
+    "NLP(2) Stemming & Lemmatization 1.md",
     "Untitled.canvas",
-    "NLP/NLP(1) Tokenization.md",
     "GraphDB/Cypher.md",
     "NLP/NLP 1.md",
     "GraphDB/Cypher(1) Basic.md",
@@ -165,7 +167,6 @@
     "GraphDB/Cypher(4) CSV.md",
     "NLP/NLP(5) Integer Encoding.md",
     "NLP/NLP(4) Regular Expression.md",
-    "NLP/NLP(3) Stopword.md",
     "GraphDB/Neo4j(1) News crawling.md",
     "GraphDB/Cypher(7) OSM to Neo4j.md",
     "GraphDB/Cypher(5) Spatial.md",
@@ -175,8 +176,6 @@
     "GraphDB/Cypher_ osm integration.md",
     "GraphDB/2.md",
     "GraphDB/1.md",
-    "GraphDB/Cypher_ osm.md",
-    "GraphDB/Cypher_ osm 1.md",
     "GraphDB/Untitled.canvas",
     "GraphDB"
   ]
