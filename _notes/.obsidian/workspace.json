@@ -11,8 +11,13 @@
             "id": "b10b4b4961a59758",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "NLP/NLP.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "NLP/NLP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "NLP/NLP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "NLP/NLP.md"
+              }
             }
           }
         ]
@@ -140,8 +149,9 @@
   },
   "active": "b10b4b4961a59758",
   "lastOpenFiles": [
-    "NLP/NLP.md",
     "NLP/NLP(2) Stemming & Lemmatization.md",
+    "Untitled 1.canvas",
+    "NLP/NLP.md",
     "NLP/NLP(1) Tokenization.md",
     "GraphDB/Cypher(4) CSV.md",
     "NLP/NLP(7) One Hot Encoding.md",
@@ -157,7 +167,6 @@
     "GraphDB/Cypher.md",
     "NLP/NLP 1.md",
     "GraphDB/Cypher(1) Basic.md",
-    "Untitled 1.canvas",
     "GraphDB/Paper reading - NoSQL spatial.md",
     "GraphDB/Cypher(6) neo4j python driver.md",
     "NLP/NLP(5) Integer Encoding.md",
@@ -168,7 +177,6 @@
     "GraphDB/Cypher(3) MATCH use cases.md",
     "GraphDB/Cypher(2) Basic Queries.md",
     "NLP",
-    "GraphDB/Cypher_ osm integration.md",
     "GraphDB/Untitled.canvas",
     "GraphDB"
   ]
