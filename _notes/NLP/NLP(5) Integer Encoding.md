@@ -1,5 +1,5 @@
 ---
-title: NLP_Integer Encoding
+title: NLP(5) Integer Encoding
 feed: show
 date: 04-08-2024
 ---

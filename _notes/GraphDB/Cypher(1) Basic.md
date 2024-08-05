@@ -1,5 +1,5 @@
 ---
-title: Cypher_ Basic
+title: Cypher(1) Basic
 feed: show
 date: 24-07-2024
 ---

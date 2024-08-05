@@ -1,5 +1,5 @@
 ---
-title: Cypher_ MATCH use cases
+title: Cypher(3) MATCH use cases
 feed: show
 date: 27-07-2024
 ---

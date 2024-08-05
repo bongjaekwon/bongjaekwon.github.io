@@ -1,5 +1,5 @@
 ---
-title: Cypher_ Spatial
+title: Cypher(5) Spatial
 feed: show
 date: 29-07-2024
 ---

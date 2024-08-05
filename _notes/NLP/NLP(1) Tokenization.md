@@ -1,5 +1,5 @@
 ---
-title: NLP_Tokenization
+title: NLP(1) Tokenization
 feed: show
 date: 01-08-2024
 ---

@@ -1,5 +1,5 @@
 ---
-title: Paper reading_ NoSQL spatial
+title: Paper reading - NoSQL spatial
 feed: show
 date: 23-07-2024
 ---
