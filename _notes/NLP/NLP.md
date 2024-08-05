@@ -14,4 +14,5 @@ date: 31-07-2024
 - [[NLP(6) Padding]]
 - [[NLP(7) One Hot Encoding]]
 - [[NLP(8) Splitting Data]]
+- [[NLP(9) Korean Text Preprocessing Tools]]
 
