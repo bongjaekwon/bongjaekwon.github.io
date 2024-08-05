@@ -148,8 +148,9 @@
   },
   "active": "b10b4b4961a59758",
   "lastOpenFiles": [
-    "GraphDB/Cypher.md",
+    "NLP/NLP 1.md",
     "NLP/NLP.md",
+    "GraphDB/Cypher.md",
     "GraphDB/Cypher(1) Basic.md",
     "NLP/NLP(2) Stemming&Lemmatization.md",
     "NLP/NLP(1) Tokenization.md",
@@ -176,7 +177,6 @@
     "GraphDB/Cypher_ osm.md",
     "GraphDB/Cypher_ osm 1.md",
     "Public/Markdown Rendered.md",
-    "Public/Credits.md",
     "GraphDB/Untitled.canvas",
     "GraphDB"
   ]
