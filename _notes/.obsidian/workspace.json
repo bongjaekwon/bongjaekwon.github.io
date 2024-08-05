@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NLP/NLP.md",
+                "file": "NLP/NLP(2) Stemming Lemmatization.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NLP/NLP.md",
+                "file": "NLP/NLP(2) Stemming Lemmatization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NLP/NLP.md",
+                "file": "NLP/NLP(2) Stemming Lemmatization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NLP/NLP.md"
+                "file": "NLP/NLP(2) Stemming Lemmatization.md"
               }
             }
           }
@@ -148,9 +148,9 @@
   },
   "active": "b10b4b4961a59758",
   "lastOpenFiles": [
+    "NLP/NLP.md",
     "NLP/NLP(2) Stemming Lemmatization.md",
     "NLP/NLP(1) Tokenization.md",
-    "NLP/NLP.md",
     "GraphDB/Cypher.md",
     "NLP/NLP 1.md",
     "GraphDB/Cypher(1) Basic.md",
