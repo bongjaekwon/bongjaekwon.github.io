@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NLP/NLP.md",
+                "file": "Public/Hidden Note.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NLP/NLP.md",
+                "file": "Public/Hidden Note.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NLP/NLP.md",
+                "file": "Public/Hidden Note.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NLP/NLP.md"
+                "file": "Public/Hidden Note.md"
               }
             }
           }
@@ -148,19 +148,21 @@
   },
   "active": "b10b4b4961a59758",
   "lastOpenFiles": [
-    "NLP/NLP(1) Tokenization.md",
-    "NLP/NLP(2) Stemming & Lemmatization.md",
-    "NLP/NLP(3) Stopword.md",
-    "NLP/NLP.md",
-    "NLP/NLP(2) Stemming & Lemmatization 1.md",
+    "Public/Markdown Rendered.md",
+    "Public/Welcome to the garden.md",
     "NLP(2) Stemming & Lemmatization 1.md",
+    "Public/Credits.md",
+    "Public/Hidden Note.md",
+    "NLP/NLP(2) Stemming & Lemmatization.md",
+    "NLP/NLP.md",
+    "NLP/NLP(1) Tokenization.md",
+    "NLP/NLP(3) Stopword.md",
+    "NLP/NLP(2) Stemming & Lemmatization 1.md",
     "Untitled.canvas",
     "GraphDB/Cypher.md",
     "NLP/NLP 1.md",
     "GraphDB/Cypher(1) Basic.md",
     "NLP/NLP(6) Padding.md",
-    "Public/Welcome to the garden.md",
-    "Public/Hidden Note.md",
     "Untitled 1.canvas",
     "GraphDB/Paper reading - NoSQL spatial.md",
     "GraphDB/Cypher(6) neo4j python driver.md",
@@ -175,7 +177,6 @@
     "NLP",
     "GraphDB/Cypher_ osm integration.md",
     "GraphDB/2.md",
-    "GraphDB/1.md",
     "GraphDB/Untitled.canvas",
     "GraphDB"
   ]
