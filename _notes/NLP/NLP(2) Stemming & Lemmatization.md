@@ -1,5 +1,5 @@
 ---
-title: NLP(2) Stemming Lemmatization
+title: NLP(2) Stemming & Lemmatization
 feed: show
 date: 02-08-2024
 ---
