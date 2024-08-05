@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Public/Hidden Note.md",
+                "file": "NLP/NLP.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Public/Hidden Note.md",
+                "file": "NLP/NLP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Public/Hidden Note.md",
+                "file": "NLP/NLP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Public/Hidden Note.md"
+                "file": "NLP/NLP.md"
               }
             }
           }
@@ -148,11 +148,11 @@
   },
   "active": "b10b4b4961a59758",
   "lastOpenFiles": [
+    "Public/Hidden Note.md",
     "Public/Markdown Rendered.md",
     "Public/Welcome to the garden.md",
     "NLP(2) Stemming & Lemmatization 1.md",
     "Public/Credits.md",
-    "Public/Hidden Note.md",
     "NLP/NLP(2) Stemming & Lemmatization.md",
     "NLP/NLP.md",
     "NLP/NLP(1) Tokenization.md",
