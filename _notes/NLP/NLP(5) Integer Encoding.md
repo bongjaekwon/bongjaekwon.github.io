@@ -101,4 +101,32 @@ print('Vocab :', vocab)
 print(vocab["pooh"])
 
 #3
+
+  
+
+vocab_sorted = sorted(vocab.items(), key = lambda x:x[1], reverse = True)
+
+print(vocab_sorted)
+
+#[('pooh', 3), ('_tra-la-la', 2), ('edward', 1), ('bear', 1), ('known', 1), ('friends', 1), ('winnie-the-pooh', 1), ('short', 1), ('walking', 1), ('forest', 1), ('one', 1), ('day', 1), ('humming', 1), ('proudly', 1), ('made', 1), ('little', 1), ('hum', 1), ('morning', 1), ('stoutness', 1), ('exercises', 1), ('front', 1), ('glass', 1), ('tra-la-la_', 1), ('stretched', 1), ('high', 1), ('could', 1), ('tra-la', 1), ('help', 1), ('la_', 1), ('tried', 1), ('reach', 1), ('toes', 1)]
+
+  
+
+word_to_index = {}
+
+i = 0
+
+for (word, frequency) in vocab_sorted:
+
+if frequency > 1 :
+
+i = i + 1
+
+word_to_index[word] = i
+
+  
+
+print(word_to_index)
+
+#{'pooh': 1, '_tra-la-la': 2}
 ```
