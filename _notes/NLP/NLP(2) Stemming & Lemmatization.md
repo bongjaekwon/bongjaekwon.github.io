@@ -158,3 +158,4 @@ print('LancasterStemmer:',[lancaster_stemmer.stem(w) for w in words])
 
 #LancasterStemmer: ['policy', 'doing', 'org', 'hav', 'going', 'lov', 'liv', 'fly', 'die', 'watch', 'has', 'start']
 ```
+
