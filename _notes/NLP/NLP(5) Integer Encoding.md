@@ -244,4 +244,119 @@ word_to_index[word] = i
 print(word_to_index)
 
 #{'pooh': 1, '_tra-la-la': 2, 'edward': 3}
+
+  
+  
+
+#FreqDist in NLTK
+
+  
+
+from nltk import FreqDist
+
+import numpy as np
+
+  
+
+vocab = FreqDist(np.hstack(preprocessed_sentences))
+
+  
+
+print(vocab["pooh"])
+
+#3
+
+  
+
+vocab_size = 3
+
+vocab = vocab.most_common(vocab_size)
+
+print(vocab)
+
+#[('pooh', 3), ('_tra-la-la', 2), ('edward', 1)]
+
+  
+
+word_to_index = {word[0] : index + 1 for index, word in enumerate(vocab)}
+
+print(word_to_index)
+
+#{'pooh': 1, '_tra-la-la': 2, 'edward': 3}
+
+  
+  
+
+#enumerate
+
+test_input = ['a', 'b', 'c', 'd', 'e', 'f', 'g']
+
+for index, value in enumerate(test_input):
+
+print("value : {}, index: {}".format(value, index))
+
+"""
+
+value : a, index: 0
+
+value : b, index: 1
+
+value : c, index: 2
+
+value : d, index: 3
+
+value : e, index: 4
+
+value : f, index: 5
+
+value : g, index: 6
+
+"""
+
+  
+  
+
+#Text preprocessing in keras
+
+  
+
+from tensorflow.keras.preprocessing.text import Tokenizer
+
+  
+
+tokenizer = Tokenizer()
+
+tokenizer.fit_on_texts(preprocessed_sentences)
+
+print(tokenizer.word_index)
+
+#{'pooh': 1, '_tra-la-la': 2, 'edward': 3, 'bear': 4, 'known': 5, 'friends': 6, 'winnie-the-pooh': 7, 'short': 8, 'walking': 9, 'forest': 10, 'one': 11, 'day': 12, 'humming': 13, 'proudly': 14, 'made': 15, 'little': 16, 'hum': 17, 'morning': 18, 'stoutness': 19, 'exercises': 20, 'front': 21, 'glass': 22, 'tra-la-la_': 23, 'stretched': 24, 'high': 25, 'could': 26, 'tra-la': 27, 'help': 28, 'la_': 29, 'tried': 30, 'reach': 31, 'toes': 32}
+
+  
+
+print(tokenizer.word_counts)
+
+#OrderedDict([('edward', 1), ('bear', 1), ('known', 1), ('friends', 1), ('winnie-the-pooh', 1), ('pooh', 3), ('short', 1), ('walking', 1), ('forest', 1), ('one', 1), ('day', 1), ('humming', 1), ('proudly', 1), ('made', 1), ('little', 1), ('hum', 1), ('morning', 1), ('stoutness', 1), ('exercises', 1), ('front', 1), ('glass', 1), ('_tra-la-la', 2), ('tra-la-la_', 1), ('stretched', 1), ('high', 1), ('could', 1), ('tra-la', 1), ('help', 1), ('la_', 1), ('tried', 1), ('reach', 1), ('toes', 1)])
+
+  
+
+print(tokenizer.texts_to_sequences(preprocessed_sentences))
+
+#[[3, 4, 5, 6, 7, 1, 8, 9, 10, 11, 12, 13, 14], [1, 15, 16, 17, 18, 1, 19, 20, 21, 22, 2, 23, 24, 25, 26, 2, 27, 28, 29, 30, 31, 32]]
+
+vocab_size = 3
+
+tokenizer = Tokenizer(num_words = vocab_size +1)
+
+tokenizer.fit_on_texts(preprocessed_sentences)
+
+print(tokenizer.word_index)
+
+#{'pooh': 1, '_tra-la-la': 2, 'edward': 3, 'bear': 4, 'known': 5, 'friends': 6, 'winnie-the-pooh': 7, 'short': 8, 'walking': 9, 'forest': 10, 'one': 11, 'day': 12, 'humming': 13, 'proudly': 14, 'made': 15, 'little': 16, 'hum': 17, 'morning': 18, 'stoutness': 19, 'exercises': 20, 'front': 21, 'glass': 22, 'tra-la-la_': 23, 'stretched': 24, 'high': 25, 'could': 26, 'tra-la': 27, 'help': 28, 'la_': 29, 'tried': 30, 'reach': 31, 'toes': 32}
+
+  
+
+print(tokenizer.texts_to_sequences(preprocessed_sentences))
+
+#[[3, 1], [1, 1, 2, 2]]
 ```
