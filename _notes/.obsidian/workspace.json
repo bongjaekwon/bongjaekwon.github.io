@@ -11,8 +11,12 @@
             "id": "b10b4b4961a59758",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "NLP/NLP(2) Stemming & Lemmatization 1.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "NLP/NLP(2) Stemming & Lemmatization 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "NLP/NLP(2) Stemming & Lemmatization 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "NLP/NLP(2) Stemming & Lemmatization 1.md"
+              }
             }
           }
         ]
@@ -141,15 +149,16 @@
   "active": "b10b4b4961a59758",
   "lastOpenFiles": [
     "NLP/NLP.md",
-    "NLP/NLP(1) Tokenization.md",
+    "NLP/NLP(2) Stemming & Lemmatization 1.md",
     "NLP/NLP(2) Stemming & Lemmatization.md",
+    "Untitled.canvas",
+    "NLP/NLP(1) Tokenization.md",
     "GraphDB/Cypher.md",
     "NLP/NLP 1.md",
     "GraphDB/Cypher(1) Basic.md",
     "NLP/NLP(6) Padding.md",
     "Public/Welcome to the garden.md",
     "Public/Hidden Note.md",
-    "Untitled.canvas",
     "Untitled 1.canvas",
     "GraphDB/Paper reading - NoSQL spatial.md",
     "GraphDB/Cypher(6) neo4j python driver.md",
@@ -168,7 +177,6 @@
     "GraphDB/1.md",
     "GraphDB/Cypher_ osm.md",
     "GraphDB/Cypher_ osm 1.md",
-    "Public/Markdown Rendered.md",
     "GraphDB/Untitled.canvas",
     "GraphDB"
   ]
