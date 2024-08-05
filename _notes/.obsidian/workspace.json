@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NLP/NLP.md",
+                "file": "NLP/NLP(9) Korean Text Preprocessing Tools.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NLP/NLP.md",
+                "file": "NLP/NLP(9) Korean Text Preprocessing Tools.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NLP/NLP.md",
+                "file": "NLP/NLP(9) Korean Text Preprocessing Tools.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NLP/NLP.md"
+                "file": "NLP/NLP(9) Korean Text Preprocessing Tools.md"
               }
             }
           }
@@ -149,6 +149,7 @@
   },
   "active": "b10b4b4961a59758",
   "lastOpenFiles": [
+    "NLP/NLP.md",
     "NLP/NLP(9) Korean Text Preprocessing Tools.md",
     "NLP/NLP(8) Splitting Data.md",
     "NLP/NLP(7) One Hot Encoding.md",
@@ -158,7 +159,6 @@
     "NLP/NLP(3) Stopword.md",
     "NLP/NLP(2) Stemming & Lemmatization.md",
     "NLP/NLP(1) Tokenization.md",
-    "NLP/NLP.md",
     "GraphDB/Neo4j(1) News crawling.md",
     "GraphDB/Cypher.md",
     "2024-08-05.md",
