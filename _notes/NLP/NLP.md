@@ -13,5 +13,5 @@ date: 31-07-2024
 - [[NLP(6) Padding]]
 - [[NLP(7) One Hot Encoding]]
 
-%%[[NLP(2) Stemming & Lemmatization]]
+<!--[[NLP(2) Stemming & Lemmatization]]
 

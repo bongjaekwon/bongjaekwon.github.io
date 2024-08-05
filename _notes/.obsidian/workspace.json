@@ -11,13 +11,8 @@
             "id": "b10b4b4961a59758",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NLP/NLP.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -86,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NLP/NLP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NLP/NLP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "NLP/NLP.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -149,9 +140,9 @@
   },
   "active": "b10b4b4961a59758",
   "lastOpenFiles": [
+    "NLP/NLP.md",
     "NLP/NLP(2) Stemming & Lemmatization.md",
     "NLP/NLP(1) Tokenization.md",
-    "NLP/NLP.md",
     "GraphDB/Cypher(4) CSV.md",
     "NLP/NLP(7) One Hot Encoding.md",
     "NLP/NLP(6) Padding.md",
