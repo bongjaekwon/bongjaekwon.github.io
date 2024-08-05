@@ -7,7 +7,6 @@ date: 31-07-2024
 
 - [[NLP(1) Tokenization]]
 - [[NLP(2) Stemming&Lemmatization]]
-- [[NLP(2) Stemming&Lemmatization]]
 - [[NLP(3) Stopword]]
 - [[NLP(4) Regular Expression]]
 - [[NLP(5) Integer Encoding]]
