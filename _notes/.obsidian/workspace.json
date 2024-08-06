@@ -11,8 +11,13 @@
             "id": "b10b4b4961a59758",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "NLP/01.Text preprocessing/NLP(9) Korean Text Preprocessing Tools.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "NLP/01.Text preprocessing/NLP(9) Korean Text Preprocessing Tools.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "NLP/01.Text preprocessing/NLP(9) Korean Text Preprocessing Tools.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "NLP/01.Text preprocessing/NLP(9) Korean Text Preprocessing Tools.md"
+              }
             }
           }
         ]
@@ -135,15 +144,17 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "remotely-save:Remotely Save": false
     }
   },
-  "active": "9957c382509e88cd",
+  "active": "b10b4b4961a59758",
   "lastOpenFiles": [
+    "NLP/01.Text preprocessing/NLP(4) Regular Expression.md",
+    "GraphDB/Paper reading - NoSQL spatial.md",
     "NLP/00.INDEX",
     "NLP/00.INDEX/NLP.md",
     "NLP/01.Text preprocessing/NLP(3) Stopword.md",
-    "GraphDB/Paper reading - NoSQL spatial.md",
     "NLP/01.Text preprocessing/NLP(1) Tokenization.md",
     "NLP/Text preprocessing/Untitled",
     "NLP/01.Text preprocessing",
@@ -152,7 +163,6 @@
     "NLP/01.Text preprocessing/NLP(7) One Hot Encoding.md",
     "NLP/01.Text preprocessing/NLP(6) Padding.md",
     "NLP/01.Text preprocessing/NLP(5) Integer Encoding.md",
-    "NLP/01.Text preprocessing/NLP(4) Regular Expression.md",
     "NLP/01.Text preprocessing/NLP(2) Stemming & Lemmatization.md",
     "GraphDB/Neo4j(1) News crawling.md",
     "GraphDB/Cypher.md",
