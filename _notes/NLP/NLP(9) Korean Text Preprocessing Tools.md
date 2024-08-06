@@ -171,11 +171,29 @@ all accessor variety was computed # words = 6340
 
 '''
 
-  
+
 
 print(word_score_table["Winnie"].cohesion_forward)
 
 #0.7464617656990232
+
+  
+
+print(word_score_table["Po"].cohesion_forward)
+
+#0.5
+
+  
+
+print(word_score_table["Poo"].cohesion_forward)
+
+#0.680448531544916
+
+  
+
+print(word_score_table["Pooh"].cohesion_forward)
+
+#0.7707723533036147
 ```
 
 ### cohesion probability
