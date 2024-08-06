@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NLP/01.Text preprocessing/NLP(9) Korean Text Preprocessing Tools.md",
+                "file": "NLP/02.Language model/NLP(10) Language model.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NLP/01.Text preprocessing/NLP(9) Korean Text Preprocessing Tools.md",
+                "file": "NLP/02.Language model/NLP(10) Language model.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NLP/01.Text preprocessing/NLP(9) Korean Text Preprocessing Tools.md",
+                "file": "NLP/02.Language model/NLP(10) Language model.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NLP/01.Text preprocessing/NLP(9) Korean Text Preprocessing Tools.md"
+                "file": "NLP/02.Language model/NLP(10) Language model.md"
               }
             }
           }
@@ -150,6 +150,10 @@
   },
   "active": "b10b4b4961a59758",
   "lastOpenFiles": [
+    "NLP/01.Text preprocessing/NLP(9) Korean Text Preprocessing Tools.md",
+    "NLP/02.Language model/NLP(10) Language model.md",
+    "NLP/02.Language model",
+    "NLP/00.INDEX/Untitled",
     "NLP/01.Text preprocessing/NLP(4) Regular Expression.md",
     "GraphDB/Paper reading - NoSQL spatial.md",
     "NLP/00.INDEX",
@@ -158,7 +162,6 @@
     "NLP/01.Text preprocessing/NLP(1) Tokenization.md",
     "NLP/Text preprocessing/Untitled",
     "NLP/01.Text preprocessing",
-    "NLP/01.Text preprocessing/NLP(9) Korean Text Preprocessing Tools.md",
     "NLP/01.Text preprocessing/NLP(8) Splitting Data.md",
     "NLP/01.Text preprocessing/NLP(7) One Hot Encoding.md",
     "NLP/01.Text preprocessing/NLP(6) Padding.md",
