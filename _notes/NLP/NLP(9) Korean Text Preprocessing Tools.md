@@ -240,14 +240,8 @@ This formula is used to measure the cohesion in a text, such as the lexical cohe
 ![](https://lh3.googleusercontent.com/pw/AP1GczMrvx_38n4bh1bbyLieQuU7Mt1idK3KoGA3hAFh9cfLgPqeFPWIv8NFHb58yrQe-XSy8JOFo6lE-yXo13BAB9b210N7WDmtG35OaDDXqxAgkrD8MMI9MuNhFfl9UxdaYSEeG3QJQkwCfwSLS8hv3s0XXA=w730-h102-s-no?authuser=0)		Therefore, the cohesion of the sequence "곰 돌 이 푸" whit this given probabilities is approximately 0.494.
 
 4. **Example2**
+
 ```
-print(word_score_table["Pooh"].cohesion_forward)
-
-#0.7707723533036147
-
-  
-  
-
 f = open("/home/kwon/Desktop/In Work/개인/염쟁이유씨.txt", 'r')
 
 while True:
@@ -264,7 +258,7 @@ corpus = DoublespaceLineCorpus("/home/kwon/Desktop/In Work/개인/염쟁이유�
 
 print(len(corpus))
 
-#4010
+#679
 
   
 
@@ -281,6 +275,50 @@ i = i +1
 if i == 20:
 
 break
+
+'''
+
+염쟁이 유氏
+
+(연극쟁이 유순웅을 위한 일인극)
+
+김 인 경
+
+곳곳에는 관, 종이꽃,완성 되지 않은 꽃상여, 곱게 접혀 있는 수의, 각종 크기의 삼베천, 칠성판,
+
+짚세기, 향로, 병풍 등 장례식에 쓰임직한 갖가지 것들이 차곡차곡 쌓여있거나 혹은 무질서하게
+
+널부러져 있다.
+
+마당 한 켠에는 흰 천에 덮인 시신이 한 구 놓여있다.
+
+유씨 : (핸드폰 안테나를 최대한 뽑아 올린 채, 이리저리 방향을 맞춰보며 짜증이 나있는
+
+표정으로 나온다) 제기랄! 이게 왜 안터지냐구. 꼭 밖으로 나가야 통 화가 되니, 전화 올 때마다
+
+성가셔서 살수가 있나.
+
+(관객들에게) 거 핸드폰 있는 사람 나한테 전화 좀 날려보셔. 0-1-7-4-3- (핸드폰을
+
+꺼내는 관객이 있으면) 어허! 이거봐, 이거보라구..내 이럴 줄 알 았다니까.
+
+이런 자리에 오면 제일 먼저 해야하는 일이 핸드폰 죽이는 거라는 건 이제 일반상식
+
+아녀? 얼른들 꺼! 진동도 안되야! 게다가 지금 이 자리가 예삿 자 리여? 죽은 사람 염하는 자리여.
+
+염이 뭐여. 관으로 들어가기 직전의 장의 절차아녀? 그러니까 저기 놓여있는 게 바로 시신이지.
+
+시체! 왜 겁나냐?
+
+죽은 사람이 무섭긴 뭐가 무서워, 산 사람이 더 무섭지. 송장이 사기 치는거 봤어?
+
+송장이 사람 죽이는 거 봤냐구. 죽은 사람이 산 사람 헤꼬지 하는 법 없으니까 걱정들 꽉 붙들어
+
+매셔. 내가 왜 이리 자신만만하냐구? 내가 한 평생 해온 일이 바로 그거거든. 염쟁이! 그게 내
+
+밥줄여. 죽은 사람이 날 먹 여 살려. 말하기 좋아허는 놈들이 그러대. 사람이 죽어야 유씨가 살지.
+
+'''
 
   
 
