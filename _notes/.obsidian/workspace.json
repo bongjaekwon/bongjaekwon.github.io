@@ -11,13 +11,8 @@
             "id": "b10b4b4961a59758",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NLP/NLP.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -86,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NLP/NLP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NLP/NLP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "NLP/NLP.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -147,21 +138,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b10b4b4961a59758",
+  "active": "9957c382509e88cd",
   "lastOpenFiles": [
-    "NLP/Text preprocessing/NLP(3) Stopword.md",
-    "NLP/NLP.md",
+    "NLP/00.INDEX",
+    "NLP/00.INDEX/NLP.md",
+    "NLP/01.Text preprocessing/NLP(3) Stopword.md",
     "GraphDB/Paper reading - NoSQL spatial.md",
-    "NLP/Text preprocessing/NLP(1) Tokenization.md",
+    "NLP/01.Text preprocessing/NLP(1) Tokenization.md",
     "NLP/Text preprocessing/Untitled",
-    "NLP/Text preprocessing",
-    "NLP/Text preprocessing/NLP(9) Korean Text Preprocessing Tools.md",
-    "NLP/Text preprocessing/NLP(8) Splitting Data.md",
-    "NLP/Text preprocessing/NLP(7) One Hot Encoding.md",
-    "NLP/Text preprocessing/NLP(6) Padding.md",
-    "NLP/Text preprocessing/NLP(5) Integer Encoding.md",
-    "NLP/Text preprocessing/NLP(4) Regular Expression.md",
-    "NLP/Text preprocessing/NLP(2) Stemming & Lemmatization.md",
+    "NLP/01.Text preprocessing",
+    "NLP/01.Text preprocessing/NLP(9) Korean Text Preprocessing Tools.md",
+    "NLP/01.Text preprocessing/NLP(8) Splitting Data.md",
+    "NLP/01.Text preprocessing/NLP(7) One Hot Encoding.md",
+    "NLP/01.Text preprocessing/NLP(6) Padding.md",
+    "NLP/01.Text preprocessing/NLP(5) Integer Encoding.md",
+    "NLP/01.Text preprocessing/NLP(4) Regular Expression.md",
+    "NLP/01.Text preprocessing/NLP(2) Stemming & Lemmatization.md",
     "GraphDB/Neo4j(1) News crawling.md",
     "GraphDB/Cypher.md",
     "2024-08-05.md",
