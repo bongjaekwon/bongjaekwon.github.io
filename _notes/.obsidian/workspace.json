@@ -150,8 +150,9 @@
   },
   "active": "b10b4b4961a59758",
   "lastOpenFiles": [
-    "NLP/01.Text preprocessing/NLP(9) Korean Text Preprocessing Tools.md",
+    "NLP/01.Text preprocessing/NLP(2) Stemming & Lemmatization.md",
     "NLP/02.Language model/NLP(10) Language model.md",
+    "NLP/01.Text preprocessing/NLP(9) Korean Text Preprocessing Tools.md",
     "NLP/02.Language model",
     "NLP/00.INDEX/Untitled",
     "NLP/01.Text preprocessing/NLP(4) Regular Expression.md",
@@ -166,7 +167,6 @@
     "NLP/01.Text preprocessing/NLP(7) One Hot Encoding.md",
     "NLP/01.Text preprocessing/NLP(6) Padding.md",
     "NLP/01.Text preprocessing/NLP(5) Integer Encoding.md",
-    "NLP/01.Text preprocessing/NLP(2) Stemming & Lemmatization.md",
     "GraphDB/Neo4j(1) News crawling.md",
     "GraphDB/Cypher.md",
     "2024-08-05.md",
