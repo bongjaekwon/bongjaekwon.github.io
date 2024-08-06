@@ -1,6 +1,6 @@
 ---
 title: NLP(5) Integer Encoding
-feed: show
+feed: hide
 date: 04-08-2024
 ---
 #### Posting information

@@ -1,6 +1,6 @@
 ---
 title: Cypher(5) Spatial
-feed: show
+feed: hide
 date: 29-07-2024
 ---
 Handling spatial values & functions

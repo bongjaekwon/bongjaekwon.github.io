@@ -1,6 +1,6 @@
 ---
 title: NLP(7) One Hot Encoding
-feed: show
+feed: hide
 date: 05-08-2024
 ---
 #### Posting information

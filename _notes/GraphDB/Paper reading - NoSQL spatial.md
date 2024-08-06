@@ -1,6 +1,6 @@
 ---
 title: Paper reading - NoSQL spatial
-feed: show
+feed: hide
 date: 23-07-2024
 ---
 GraphDB vs RDB

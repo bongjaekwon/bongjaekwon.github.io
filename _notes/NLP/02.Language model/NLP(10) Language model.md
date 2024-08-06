@@ -1,6 +1,6 @@
 ---
 title: NLP(10) Language model
-feed: show
+feed: hide
 date: 06-08-2024
 ---
 #### Posting information

@@ -1,6 +1,6 @@
 ---
 title: Cypher(6) neo4j python driver
-feed: show
+feed: hide
 date: 29-07-2024
 ---
 Create basic nodes and relationships

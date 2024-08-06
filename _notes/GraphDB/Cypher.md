@@ -1,6 +1,6 @@
 ---
 title: Cypher
-feed: show
+feed: hide
 date: 20-07-2024
 ---
 #### INDEX

@@ -1,6 +1,6 @@
 ---
 title: NLP(4) Regular Expression
-feed: show
+feed: hide
 date: 03-08-2024
 ---
 #### Posting information

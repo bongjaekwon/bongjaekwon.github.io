@@ -1,6 +1,6 @@
 ---
 title: NLP(1) Tokenization
-feed: show
+feed: hide
 date: 01-08-2024
 ---
 #### Posting information

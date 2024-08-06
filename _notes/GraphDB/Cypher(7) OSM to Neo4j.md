@@ -1,6 +1,6 @@
 ---
 title: Cypher(7) OSM to Neo4j
-feed: show
+feed: hide
 date: 29-07-2024
 ---
 Working With .osm Road Network Data

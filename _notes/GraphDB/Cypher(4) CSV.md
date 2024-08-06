@@ -1,6 +1,6 @@
 ---
 title: Cypher(4) CSV
-feed: show
+feed: hide
 date: 28-07-2024
 ---
 CSV use

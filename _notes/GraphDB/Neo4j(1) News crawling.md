@@ -1,6 +1,6 @@
 ---
 title: Neo4j(1) News crawling
-feed: show
+feed: hide
 date: 30-07-2024
 ---
 Article, Keyword, Publisher

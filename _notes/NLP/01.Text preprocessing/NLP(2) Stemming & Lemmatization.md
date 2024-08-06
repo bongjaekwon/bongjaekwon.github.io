@@ -1,6 +1,6 @@
 ---
 title: NLP(2) Stemming & Lemmatization
-feed: show
+feed: hide
 date: 02-08-2024
 ---
 #### Posting information

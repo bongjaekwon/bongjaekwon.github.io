@@ -1,6 +1,6 @@
 ---
 title: Cypher(2) Basic Queries
-feed: show
+feed: hide
 date: 25-07-2024
 ---
 Basic queries

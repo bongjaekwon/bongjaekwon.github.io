@@ -1,6 +1,6 @@
 ---
 title: Cypher(1) Basic
-feed: show
+feed: hide
 date: 24-07-2024
 ---
 The concept of Cypher

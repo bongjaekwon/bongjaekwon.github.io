@@ -1,6 +1,6 @@
 ---
 title: Cypher(3) MATCH use cases
-feed: show
+feed: hide
 date: 27-07-2024
 ---
 MATCH use cases
