@@ -401,16 +401,32 @@ print(l_tokenizer.tokenize("공들여 쌓은 탑도 언젠가는 무너지지. �
 #[('공', '들여'), ('쌓은', ''), ('탑', ''), ('언젠가는', '도'), ('무너지지.', ''), ('하지만,', ''), ('정성', '을'), ('다해', ''), ('그', ''), ('탑', '을'), ('쌓으면서', ''), ('자기', ''), ('마음', ''), ('속', '에서'), ('자란', ''), ('생각', '은'), ('절대', '로'), ('허물어지지', ''), ('않는겨.', ''), ('산다', '는'), ('건', ''), ('누구', '에겐가'), ('정성', '을'), ('쏟는', ''게지')]
 ```
 <br><br><br>
-### L Tokenizer
+### Deleting repeated character using SOYNLP (normalizer)
 
 ```
-from soynlp.tokenizer import MaxScoreTokenizer
+from soynlp.normalizer import *
 
-maxscore_tokenizer = MaxScoreTokenizer(scores=scores)
+  
 
-print(maxscore_tokenizer.tokenize('공들여쌓은탑도언젠가는무너지지하지만정성을다해그탑을쌓으면서자기마음속에서자란생각은절대로허물어지지않는겨산다는건누구에겐가정성을쏟는게지'))
+print(emoticon_normalize('ㅋㅋㅋㅋㅋㅋ 맛있어서 눈물나옴 ㅠㅠㅠㅠㅠㅠㅠ', num_repeats=3))
 
-#['공들여', '쌓은', '탑도', '언젠', '가는', '무너지지', 하지만', 정성을', '다해', '그', '탑을', '쌓으면서', '자기', '마음', '속에서', '자란', '생각', '은', '절대', '로', '허물어', '지지', '않는', '겨', '산', '다는', '건', '누구', '에겐가', '정성', '을', '쏟는게지']
+#ㅋㅋㅋ 맛있어서 눈물나옴 ㅠㅠㅠ
+
+print(emoticon_normalize('ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ 맛있어서 눈물나옴 ㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠ', num_repeats=3))
+
+#ㅋㅋㅋ 맛있어서 눈물나옴 ㅠㅠㅠ
+
+  
+
+print(repeat_normalize('우하하하하하하하하하 짐은 노란 곰들 중 왕이니라', num_repeats=3))
+
+#우하하하 짐은 노란 곰들 중 왕이니라
+
+  
+
+print(repeat_normalize('우하하하하하하하하하하하하하하하하 짐은 노란 곰들 중 왕이니라', num_repeats=3))
+
+#우하하하 짐은 노란 곰들 중 왕이니라
 ```
 
 
