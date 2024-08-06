@@ -352,3 +352,19 @@ print(word_score_table["염쟁이"].cohesion_forward)
 
 #0.45711620391383745
 ```
+<br><br><br>
+### branching entropy
+
+```
+print(word_score_table["염쟁"].right_branching_entropy)
+1.631549849845
+
+print(word_score_table["염쟁이"].right_branching_entropy)
+0.546845352
+
+print(word_score_table["염쟁이유"].right_branching_entropy)
+-0.0
+
+print(word_score_table["염쟁이유씨"].right_branching_entropy)
+3.1584515151
+```
