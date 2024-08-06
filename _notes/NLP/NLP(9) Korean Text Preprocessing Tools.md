@@ -133,3 +133,58 @@ all accessor variety was computed # words = 361598
 
 '''
 ```
+
+### cohesion probability
+
+$$
+cohesion(n) = \displaystyle\Pi_{i=0}^{n-1}{P(c_{1:i+1} | c_{1:i}))^{1\over(n-1)}}
+$$
+
+This formula is used to measure the cohesion in a text, such as the lexical cohesion within a sequence. Here’s how it can be understood:
+
+1. **Part**
+	1. ∏ part : The product symbol. This represents the product over i from 1 to n−1
+	2. probability part : The conditional probability occurring given the sequence
+	3. c1:i+1 | c1:i part : The subsequence from the first element to the i-th element of the text.
+	4. root part : Takes the (n−1)th root of the product
+	
+2.  **Steps of Calculation**
+	1. Calculate Conditional Probabilities
+		- For each word ci+1​, calculate the probability of it occurring given the preceding sequence c1:i
+	2. Multiplication
+		- Multiply all these conditional probabilities from the first pair of words to the last pair.
+	3. Normalization
+		- Take the root of the entire product. Since there are n−1 pairs of words, this is effectively calculating the geometric mean
+	
+3. **Example**
+	- Consider a text sequence "곰 돌 이 푸",
+		- c1 = "곰"
+		- c2 = "돌"
+		- c3 = "이"
+		- c4 = "푸"
+	- The conditional probabilities are 
+		- P(c2 | c1) : Probability of "돌" occurring given "곰"
+		- P(c3 | c1c2) : Probability of "이" occurring given "곰 돌"
+		- P(c4 | c1c2c3) : Probability of "푸" occurring given "곰 돌 이"
+	- Apply the cohesion formula,
+		- Calculate the product of these conditional probabilities:
+$$
+Π_{i=1}^{3}{P(c_{1:i+1}|c_{1:i})}=P(c_{2}|c_1)·P(c_3|c_1c_2)·P(c_{4}|c_1c_2c_3)
+$$
+		- The geometric mean of the product:
+		$$
+		cohesion(4) =(P(sc_{2}|c_1)·P(c_3|c_1c_2)·P(c_{4}|c_1c_2c_3))^{1\over(n-1)}
+		$$
+	- Example calculation(Example probabilities)
+		- Assume the following conditional probabilities for the sake of example:
+			- P(돌 | 곰) = 0.4
+			- P(이 | 곰 돌) = 0.5
+			- P(푸 | 곰 돌 이) = 0.6
+		- Apply these to the formula:
+$$
+			P(c_{2}|c_1)·P(c_3|c_1c_2)·P(c_{4}|c_1c_2c_3) = 0.4·0.5·0.6 = 0.12
+$$
+$$
+cohesion(4) = (0.12)^{1\over3}≈ 0.494
+$$
+		Therefore, the cohesion of the sequence "곰 돌 이 푸" whit this given probabilities is approximately 0.494.
