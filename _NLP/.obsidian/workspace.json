@@ -135,11 +135,13 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "remotely-save:Remotely Save": false
     }
   },
   "active": "b10b4b4961a59758",
   "lastOpenFiles": [
+    "GraphDB",
     "NLP/00.INDEX/NLP.md",
     "NLP/02.Language model/NLP(10) Language model.md",
     "NLP/01.Text preprocessing/NLP(2) Stemming & Lemmatization.md",
@@ -173,9 +175,7 @@
     "NLP/NLP 1.md",
     "GraphDB/Cypher(1) Basic.md",
     "GraphDB/Cypher(6) neo4j python driver.md",
-    "GraphDB/Cypher(7) OSM to Neo4j.md",
     "NLP",
-    "GraphDB/Untitled.canvas",
-    "GraphDB"
+    "GraphDB/Untitled.canvas"
   ]
 }
