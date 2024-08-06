@@ -238,9 +238,8 @@ This formula is used to measure the cohesion in a text, such as the lexical cohe
 			- P(푸 \| 곰 돌 이) = 0.6
 		- Apply these to the formula:
 ![](https://lh3.googleusercontent.com/pw/AP1GczMrvx_38n4bh1bbyLieQuU7Mt1idK3KoGA3hAFh9cfLgPqeFPWIv8NFHb58yrQe-XSy8JOFo6lE-yXo13BAB9b210N7WDmtG35OaDDXqxAgkrD8MMI9MuNhFfl9UxdaYSEeG3QJQkwCfwSLS8hv3s0XXA=w730-h102-s-no?authuser=0)		Therefore, the cohesion of the sequence "곰 돌 이 푸" whit this given probabilities is approximately 0.494.
-
+<br>
 4. **Example2**
-
 ```
 f = open("/home/kwon/Desktop/In Work/개인/염쟁이유씨.txt", 'r')
 
