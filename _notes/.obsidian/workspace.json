@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GraphDB/Cypher.md",
+                "file": "GraphDB/01.GraphDB/Cypher(1) Basic.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GraphDB/Cypher.md",
+                "file": "GraphDB/01.GraphDB/Cypher(1) Basic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GraphDB/Cypher.md",
+                "file": "GraphDB/01.GraphDB/Cypher(1) Basic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GraphDB/Cypher.md"
+                "file": "GraphDB/01.GraphDB/Cypher(1) Basic.md"
               }
             }
           }
@@ -148,8 +148,11 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "b10b4b4961a59758",
+  "active": "9957c382509e88cd",
   "lastOpenFiles": [
+    "GraphDB/00.INDEX/DB.md",
+    "GraphDB/01.GraphDB",
+    "GraphDB/00.INDEX",
     "NLP/02.Language model/NLP(10) Language model.md",
     "NLP/01.Text preprocessing/NLP(9) Korean Text Preprocessing Tools.md",
     "NLP/01.Text preprocessing/NLP(8) Splitting Data.md",
@@ -161,16 +164,15 @@
     "NLP/01.Text preprocessing/NLP(2) Stemming & Lemmatization.md",
     "NLP/01.Text preprocessing/NLP(1) Tokenization.md",
     "NLP/00.INDEX/NLP.md",
-    "GraphDB/Paper reading - NoSQL spatial.md",
-    "GraphDB/Neo4j(1) News crawling.md",
-    "GraphDB/Cypher(7) OSM to Neo4j.md",
-    "GraphDB/Cypher(6) neo4j python driver.md",
-    "GraphDB/Cypher(5) Spatial.md",
-    "GraphDB/Cypher(4) CSV.md",
-    "GraphDB/Cypher(3) MATCH use cases.md",
-    "GraphDB/Cypher(2) Basic Queries.md",
-    "GraphDB/Cypher(1) Basic.md",
-    "GraphDB/Cypher.md",
+    "GraphDB/01.GraphDB/Paper reading - NoSQL spatial.md",
+    "GraphDB/01.GraphDB/Neo4j(1) News crawling.md",
+    "GraphDB/01.GraphDB/Cypher(7) OSM to Neo4j.md",
+    "GraphDB/01.GraphDB/Cypher(6) neo4j python driver.md",
+    "GraphDB/01.GraphDB/Cypher(5) Spatial.md",
+    "GraphDB/01.GraphDB/Cypher(4) CSV.md",
+    "GraphDB/01.GraphDB/Cypher(3) MATCH use cases.md",
+    "GraphDB/01.GraphDB/Cypher(2) Basic Queries.md",
+    "GraphDB/01.GraphDB/Cypher(1) Basic.md",
     "NLP/02.Language model",
     "NLP/00.INDEX/Untitled",
     "NLP/00.INDEX",
@@ -182,7 +184,6 @@
     "Public/Hidden Note.md",
     "Public/Markdown Rendered.md",
     "Public/Welcome to the garden.md",
-    "NLP(2) Stemming & Lemmatization 1.md",
     "Untitled.canvas",
     "NLP",
     "GraphDB/Untitled.canvas",
