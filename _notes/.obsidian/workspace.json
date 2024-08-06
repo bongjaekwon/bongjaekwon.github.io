@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NLP/02.Language model/NLP(10) Language model.md",
+                "file": "GraphDB/Cypher.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NLP/02.Language model/NLP(10) Language model.md",
+                "file": "GraphDB/Cypher.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NLP/02.Language model/NLP(10) Language model.md",
+                "file": "GraphDB/Cypher.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NLP/02.Language model/NLP(10) Language model.md"
+                "file": "GraphDB/Cypher.md"
               }
             }
           }
@@ -150,6 +150,7 @@
   },
   "active": "b10b4b4961a59758",
   "lastOpenFiles": [
+    "NLP/02.Language model/NLP(10) Language model.md",
     "NLP/01.Text preprocessing/NLP(9) Korean Text Preprocessing Tools.md",
     "NLP/01.Text preprocessing/NLP(8) Splitting Data.md",
     "NLP/01.Text preprocessing/NLP(7) One Hot Encoding.md",
@@ -170,7 +171,6 @@
     "GraphDB/Cypher(2) Basic Queries.md",
     "GraphDB/Cypher(1) Basic.md",
     "GraphDB/Cypher.md",
-    "NLP/02.Language model/NLP(10) Language model.md",
     "NLP/02.Language model",
     "NLP/00.INDEX/Untitled",
     "NLP/00.INDEX",
