@@ -238,3 +238,79 @@ This formula is used to measure the cohesion in a text, such as the lexical cohe
 			- P(푸 \| 곰 돌 이) = 0.6
 		- Apply these to the formula:
 ![](https://lh3.googleusercontent.com/pw/AP1GczMrvx_38n4bh1bbyLieQuU7Mt1idK3KoGA3hAFh9cfLgPqeFPWIv8NFHb58yrQe-XSy8JOFo6lE-yXo13BAB9b210N7WDmtG35OaDDXqxAgkrD8MMI9MuNhFfl9UxdaYSEeG3QJQkwCfwSLS8hv3s0XXA=w730-h102-s-no?authuser=0)		Therefore, the cohesion of the sequence "곰 돌 이 푸" whit this given probabilities is approximately 0.494.
+
+4. **Example2**
+```
+print(word_score_table["Pooh"].cohesion_forward)
+
+#0.7707723533036147
+
+  
+  
+
+f = open("/home/kwon/Desktop/In Work/개인/염쟁이유씨.txt", 'r')
+
+while True:
+
+line = f.readline()
+
+if not line : break
+
+f.close()
+
+  
+
+corpus = DoublespaceLineCorpus("/home/kwon/Desktop/In Work/개인/염쟁이유씨.txt")
+
+print(len(corpus))
+
+#4010
+
+  
+
+i = 0
+
+for doc in corpus:
+
+if len(doc) > 0:
+
+print(doc)
+
+i = i +1
+
+if i == 20:
+
+break
+
+  
+
+word_extractor = WordExtractor()
+
+word_extractor.train(corpus)
+
+word_score_table = word_extractor.extract()
+
+'''
+
+training was done. used memory 0.984 Gby 0.981 Gb
+
+all cohesion probabilities was computed. # words = 569
+
+all branching entropies was computed # words = 1279
+
+all accessor variety was computed # words = 1279
+
+'''
+
+  
+
+print(word_score_table["염쟁"].cohesion_forward)
+
+#0.208955223880597
+
+  
+
+print(word_score_table["염쟁이"].cohesion_forward)
+
+#0.45711620391383745
+```
