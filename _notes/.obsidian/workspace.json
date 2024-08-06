@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GraphDB/Paper reading - NoSQL spatial.md",
+                "file": "NLP/NLP.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GraphDB/Paper reading - NoSQL spatial.md",
+                "file": "NLP/NLP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GraphDB/Paper reading - NoSQL spatial.md",
+                "file": "NLP/NLP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GraphDB/Paper reading - NoSQL spatial.md"
+                "file": "NLP/NLP.md"
               }
             }
           }
@@ -149,7 +149,9 @@
   },
   "active": "b10b4b4961a59758",
   "lastOpenFiles": [
+    "NLP/Text preprocessing/NLP(3) Stopword.md",
     "NLP/NLP.md",
+    "GraphDB/Paper reading - NoSQL spatial.md",
     "NLP/Text preprocessing/NLP(1) Tokenization.md",
     "NLP/Text preprocessing/Untitled",
     "NLP/Text preprocessing",
@@ -159,13 +161,11 @@
     "NLP/Text preprocessing/NLP(6) Padding.md",
     "NLP/Text preprocessing/NLP(5) Integer Encoding.md",
     "NLP/Text preprocessing/NLP(4) Regular Expression.md",
-    "NLP/Text preprocessing/NLP(3) Stopword.md",
     "NLP/Text preprocessing/NLP(2) Stemming & Lemmatization.md",
     "GraphDB/Neo4j(1) News crawling.md",
     "GraphDB/Cypher.md",
     "2024-08-05.md",
     "Untitled 2.canvas",
-    "GraphDB/Paper reading - NoSQL spatial.md",
     "Untitled 1.canvas",
     "GraphDB/Cypher(4) CSV.md",
     "Public/Hidden Note.md",

@@ -16,7 +16,7 @@ date: 31-07-2024
 - [[NLP(8) Splitting Data]]
 - [[NLP(9) Korean Text Preprocessing Tools]]
 
-<br><br>
+<br>
 #### Language Model
 
 - 
