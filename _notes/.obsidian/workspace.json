@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NLP/02.Language model/NLP(10) Language model.md",
+                "file": "NLP/00.INDEX/NLP.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NLP/02.Language model/NLP(10) Language model.md",
+                "file": "NLP/00.INDEX/NLP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NLP/02.Language model/NLP(10) Language model.md",
+                "file": "NLP/00.INDEX/NLP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NLP/02.Language model/NLP(10) Language model.md"
+                "file": "NLP/00.INDEX/NLP.md"
               }
             }
           }
@@ -150,8 +150,8 @@
   },
   "active": "b10b4b4961a59758",
   "lastOpenFiles": [
-    "NLP/01.Text preprocessing/NLP(2) Stemming & Lemmatization.md",
     "NLP/02.Language model/NLP(10) Language model.md",
+    "NLP/01.Text preprocessing/NLP(2) Stemming & Lemmatization.md",
     "NLP/01.Text preprocessing/NLP(9) Korean Text Preprocessing Tools.md",
     "NLP/02.Language model",
     "NLP/00.INDEX/Untitled",
