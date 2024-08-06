@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NLP/NLP(9) Korean Text Preprocessing Tools.md",
+                "file": "GraphDB/Paper reading - NoSQL spatial.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NLP/NLP(9) Korean Text Preprocessing Tools.md",
+                "file": "GraphDB/Paper reading - NoSQL spatial.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NLP/NLP(9) Korean Text Preprocessing Tools.md",
+                "file": "GraphDB/Paper reading - NoSQL spatial.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NLP/NLP(9) Korean Text Preprocessing Tools.md"
+                "file": "GraphDB/Paper reading - NoSQL spatial.md"
               }
             }
           }
@@ -150,15 +150,17 @@
   "active": "b10b4b4961a59758",
   "lastOpenFiles": [
     "NLP/NLP.md",
-    "NLP/NLP(9) Korean Text Preprocessing Tools.md",
-    "NLP/NLP(8) Splitting Data.md",
-    "NLP/NLP(7) One Hot Encoding.md",
-    "NLP/NLP(6) Padding.md",
-    "NLP/NLP(5) Integer Encoding.md",
-    "NLP/NLP(4) Regular Expression.md",
-    "NLP/NLP(3) Stopword.md",
-    "NLP/NLP(2) Stemming & Lemmatization.md",
-    "NLP/NLP(1) Tokenization.md",
+    "NLP/Text preprocessing/NLP(1) Tokenization.md",
+    "NLP/Text preprocessing/Untitled",
+    "NLP/Text preprocessing",
+    "NLP/Text preprocessing/NLP(9) Korean Text Preprocessing Tools.md",
+    "NLP/Text preprocessing/NLP(8) Splitting Data.md",
+    "NLP/Text preprocessing/NLP(7) One Hot Encoding.md",
+    "NLP/Text preprocessing/NLP(6) Padding.md",
+    "NLP/Text preprocessing/NLP(5) Integer Encoding.md",
+    "NLP/Text preprocessing/NLP(4) Regular Expression.md",
+    "NLP/Text preprocessing/NLP(3) Stopword.md",
+    "NLP/Text preprocessing/NLP(2) Stemming & Lemmatization.md",
     "GraphDB/Neo4j(1) News crawling.md",
     "GraphDB/Cypher.md",
     "2024-08-05.md",
@@ -177,7 +179,6 @@
     "GraphDB/Cypher(1) Basic.md",
     "GraphDB/Cypher(6) neo4j python driver.md",
     "GraphDB/Cypher(7) OSM to Neo4j.md",
-    "GraphDB/Cypher(5) Spatial.md",
     "NLP",
     "GraphDB/Untitled.canvas",
     "GraphDB"

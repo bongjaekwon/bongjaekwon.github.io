@@ -27,3 +27,5 @@ GraphDB vs RDB
 > In this paper, the author compared the graph DB(Neo4j) and the relational DB(PostGIS) using osm data of  Amsterdam. I used Korea(Busan) data in the same method.
 
 [In work]
+[[Cypher(5) Spatial]]
+[[Cypher(7) OSM to Neo4j]]
