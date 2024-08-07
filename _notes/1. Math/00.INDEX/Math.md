@@ -1,5 +1,5 @@
 ---
-title: DB
+title: Math
 feed: show
 date: 20-07-2024
 ---
