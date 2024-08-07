@@ -3,11 +3,11 @@ title: Math
 feed: show
 date: 20-07-2024
 ---
-##### 01. Linear Algebra
+##### 01. Calculus
 
 - -
 <br><br>
-##### 02. Calculus
+##### 02. Linear Algebra
 
 - -
 <br><br>
