@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GraphDB/01.GraphDB/Cypher(1) Basic.md",
+                "file": "1. Math/00.INDEX/Math.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GraphDB/01.GraphDB/Cypher(1) Basic.md",
+                "file": "1. Math/00.INDEX/Math.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GraphDB/01.GraphDB/Cypher(1) Basic.md",
+                "file": "1. Math/00.INDEX/Math.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GraphDB/01.GraphDB/Cypher(1) Basic.md"
+                "file": "1. Math/00.INDEX/Math.md"
               }
             }
           }
@@ -148,36 +148,40 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "9957c382509e88cd",
+  "active": "b10b4b4961a59758",
   "lastOpenFiles": [
-    "GraphDB/00.INDEX/DB.md",
-    "GraphDB/01.GraphDB",
-    "GraphDB/00.INDEX",
-    "NLP/02.Language model/NLP(10) Language model.md",
-    "NLP/01.Text preprocessing/NLP(9) Korean Text Preprocessing Tools.md",
-    "NLP/01.Text preprocessing/NLP(8) Splitting Data.md",
-    "NLP/01.Text preprocessing/NLP(7) One Hot Encoding.md",
-    "NLP/01.Text preprocessing/NLP(6) Padding.md",
-    "NLP/01.Text preprocessing/NLP(5) Integer Encoding.md",
-    "NLP/01.Text preprocessing/NLP(4) Regular Expression.md",
-    "NLP/01.Text preprocessing/NLP(3) Stopword.md",
-    "NLP/01.Text preprocessing/NLP(2) Stemming & Lemmatization.md",
-    "NLP/01.Text preprocessing/NLP(1) Tokenization.md",
-    "NLP/00.INDEX/NLP.md",
-    "GraphDB/01.GraphDB/Paper reading - NoSQL spatial.md",
-    "GraphDB/01.GraphDB/Neo4j(1) News crawling.md",
-    "GraphDB/01.GraphDB/Cypher(7) OSM to Neo4j.md",
-    "GraphDB/01.GraphDB/Cypher(6) neo4j python driver.md",
-    "GraphDB/01.GraphDB/Cypher(5) Spatial.md",
-    "GraphDB/01.GraphDB/Cypher(4) CSV.md",
-    "GraphDB/01.GraphDB/Cypher(3) MATCH use cases.md",
-    "GraphDB/01.GraphDB/Cypher(2) Basic Queries.md",
-    "GraphDB/01.GraphDB/Cypher(1) Basic.md",
-    "NLP/02.Language model",
+    "3. GraphDB/00.INDEX/DB.md",
+    "1. Math/00.INDEX/Math.md",
+    "2. NLP/00.INDEX/NLP.md",
+    "3. GraphDB/01.GraphDB/Cypher(1) Basic.md",
+    "1. Math/04.Big data",
+    "1. Math/03.Probability and Statistics",
+    "1. Math/02.Calculus",
+    "1. Math/01.Linear Algebra",
+    "1. Math/00.INDEX",
+    "1. Math",
+    "3. GraphDB/01.GraphDB",
+    "3. GraphDB/00.INDEX",
+    "2. NLP/02.Language model/NLP(10) Language model.md",
+    "2. NLP/01.Text preprocessing/NLP(9) Korean Text Preprocessing Tools.md",
+    "2. NLP/01.Text preprocessing/NLP(8) Splitting Data.md",
+    "2. NLP/01.Text preprocessing/NLP(7) One Hot Encoding.md",
+    "2. NLP/01.Text preprocessing/NLP(6) Padding.md",
+    "2. NLP/01.Text preprocessing/NLP(5) Integer Encoding.md",
+    "2. NLP/01.Text preprocessing/NLP(4) Regular Expression.md",
+    "2. NLP/01.Text preprocessing/NLP(3) Stopword.md",
+    "2. NLP/01.Text preprocessing/NLP(2) Stemming & Lemmatization.md",
+    "2. NLP/01.Text preprocessing/NLP(1) Tokenization.md",
+    "3. GraphDB/01.GraphDB/Paper reading - NoSQL spatial.md",
+    "3. GraphDB/01.GraphDB/Neo4j(1) News crawling.md",
+    "3. GraphDB/01.GraphDB/Cypher(7) OSM to Neo4j.md",
+    "3. GraphDB/01.GraphDB/Cypher(6) neo4j python driver.md",
+    "3. GraphDB/01.GraphDB/Cypher(5) Spatial.md",
+    "3. GraphDB/01.GraphDB/Cypher(4) CSV.md",
+    "3. GraphDB/01.GraphDB/Cypher(3) MATCH use cases.md",
+    "3. GraphDB/01.GraphDB/Cypher(2) Basic Queries.md",
+    "2. NLP/02.Language model",
     "NLP/00.INDEX/Untitled",
-    "NLP/00.INDEX",
-    "NLP/Text preprocessing/Untitled",
-    "NLP/01.Text preprocessing",
     "2024-08-05.md",
     "Untitled 2.canvas",
     "Untitled 1.canvas",
@@ -185,8 +189,6 @@
     "Public/Markdown Rendered.md",
     "Public/Welcome to the garden.md",
     "Untitled.canvas",
-    "NLP",
-    "GraphDB/Untitled.canvas",
-    "GraphDB"
+    "GraphDB/Untitled.canvas"
   ]
 }
