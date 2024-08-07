@@ -3,7 +3,7 @@ title: NLP
 feed: show
 date: 31-07-2024
 ---
-#### Text preprocessing
+##### Text preprocessing
 
 - [[NLP(1) Tokenization]]
 -  ~~[[NLP(2) Stemming & Lemmatization]]~~
@@ -17,6 +17,6 @@ date: 31-07-2024
 - [[NLP(9) Korean Text Preprocessing Tools]]
 
 <br>
-#### Language Model
+##### Language Model
 
 - [[NLP(10) Language model]]

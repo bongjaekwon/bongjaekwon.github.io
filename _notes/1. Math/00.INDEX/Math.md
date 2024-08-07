@@ -3,16 +3,18 @@ title: Math
 feed: show
 date: 20-07-2024
 ---
-#### 01. Linear Algebra
+##### 01. Linear Algebra
 
 - -
-#### 02. Calculus
+<br>
+##### 02. Calculus
 
 - -
-#### 03. Probability and Statistics
+<br>
+##### 03. Probability and Statistics
 
 - -
-
-#### 04. Big data
+<br>
+##### 04. Big data
 
 - -

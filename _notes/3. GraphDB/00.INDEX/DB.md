@@ -3,7 +3,7 @@ title: DB
 feed: show
 date: 20-07-2024
 ---
-#### GraphDB
+##### GraphDB
 
 - [[Cypher(1) Basic]]
 - [[Cypher(2) Basic Queries]]
