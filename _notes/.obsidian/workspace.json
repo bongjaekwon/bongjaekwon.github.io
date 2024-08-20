@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Math/01.Linear Algebra/Linear Algebra(1) Fields.md",
+                "file": "1. Math/00.INDEX/00. Math.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. Math/01.Linear Algebra/Linear Algebra(1) Fields.md",
+                "file": "1. Math/00.INDEX/00. Math.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Math/01.Linear Algebra/Linear Algebra(1) Fields.md",
+                "file": "1. Math/00.INDEX/00. Math.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Math/01.Linear Algebra/Linear Algebra(1) Fields.md"
+                "file": "1. Math/00.INDEX/00. Math.md"
               }
             }
           }
@@ -151,11 +151,13 @@
   },
   "active": "4395beb8a5fbf091",
   "lastOpenFiles": [
-    "Pasted image 20240820124225.png",
+    "1. Math/01.Linear Algebra/Linear Algebra(1) Basic concepts.md",
+    "Pasted image 20240820130841.png",
+    "Pasted image 20240820130045.png",
     "1. Math/00.INDEX/00. Math.md",
+    "Pasted image 20240820124225.png",
     "2. NLP/00.INDEX/01. NLP.md",
     "3. GraphDB/00.INDEX/02. DB.md",
-    "1. Math/01.Linear Algebra/Linear Algebra(1) Fields.md",
     "3. GraphDB/01.GraphDB/Cypher(2) Basic Queries.md",
     "1. Math/01.Linear Algebra/Untitled.md",
     "3. GraphDB/01.GraphDB/Cypher(1) Basic.md",
