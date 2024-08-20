@@ -10,5 +10,7 @@ This post series is a summary of Mark S. Gockenbach's _Finite-Dimensional Linear
 <br>
 **Definition**
 
+Let F be a nonempty set on which two operations, called addition and multiplication, are defined.
 α, β ∈ F ⇒ α + β ∈ F, αβ ∈ F.
+
 
