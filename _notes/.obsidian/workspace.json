@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "717705f5ef96b85e",
+        "id": "5936f3d2398b66df",
         "type": "tabs",
         "children": [
           {
-            "id": "b10b4b4961a59758",
+            "id": "4395beb8a5fbf091",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -145,14 +145,20 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "remotely-save:Remotely Save": false
+      "remotely-save:Remotely Save": false,
+      "publish:Publish changes...": false
     }
   },
-  "active": "b10b4b4961a59758",
+  "active": "4395beb8a5fbf091",
   "lastOpenFiles": [
+    "Pasted image 20240820095941.png",
+    "1. Math/00.INDEX/Math.md",
+    "Pasted image 20240816102000.png",
+    "Pasted image 20240816094945.png",
+    "Pasted image 20240816094820.png",
+    "Pasted image 20240816094231.png",
     "99. ChatGPT와 대화/2024-08-07.md",
     "Untitled",
-    "1. Math/00.INDEX/Math.md",
     "99. ChatGPT 4o mini 와의 대화/ChatGPT 4o mini 와의 대화.md",
     "99. ChatGPT와 대화",
     "2. NLP/00.INDEX/NLP.md",
