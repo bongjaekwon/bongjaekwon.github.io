@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Math/00.INDEX/Math.md",
+                "file": "1. Math/00.INDEX/00. Math.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. Math/00.INDEX/Math.md",
+                "file": "1. Math/00.INDEX/00. Math.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Math/00.INDEX/Math.md",
+                "file": "1. Math/00.INDEX/00. Math.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Math/00.INDEX/Math.md"
+                "file": "1. Math/00.INDEX/00. Math.md"
               }
             }
           }
@@ -151,9 +151,10 @@
   },
   "active": "4395beb8a5fbf091",
   "lastOpenFiles": [
+    "2. NLP/00.INDEX/01. NLP.md",
+    "3. GraphDB/00.INDEX/02. DB.md",
+    "1. Math/00.INDEX/00. Math.md",
     "1. Math/01.Linear Algebra/Linear Algebra(1) Fields.md",
-    "1. Math/00.INDEX/Math.md",
-    "3. GraphDB/00.INDEX/DB.md",
     "3. GraphDB/01.GraphDB/Cypher(2) Basic Queries.md",
     "1. Math/01.Linear Algebra/Untitled.md",
     "3. GraphDB/01.GraphDB/Cypher(1) Basic.md",
@@ -166,7 +167,6 @@
     "Untitled",
     "99. ChatGPT 4o mini 와의 대화/ChatGPT 4o mini 와의 대화.md",
     "99. ChatGPT와 대화",
-    "2. NLP/00.INDEX/NLP.md",
     "1. Math/04.Big data",
     "1. Math/03.Probability and Statistics",
     "1. Math/02.Calculus",
