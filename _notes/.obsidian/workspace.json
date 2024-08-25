@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Math/01.Linear Algebra/Brief concepts of Linear Algebra and Matrix Calculus for Machine Learning.md",
+                "file": "1. Math/00.INDEX/00. Math.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. Math/01.Linear Algebra/Brief concepts of Linear Algebra and Matrix Calculus for Machine Learning.md",
+                "file": "1. Math/00.INDEX/00. Math.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Math/01.Linear Algebra/Brief concepts of Linear Algebra and Matrix Calculus for Machine Learning.md",
+                "file": "1. Math/00.INDEX/00. Math.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Math/01.Linear Algebra/Brief concepts of Linear Algebra and Matrix Calculus for Machine Learning.md"
+                "file": "1. Math/00.INDEX/00. Math.md"
               }
             }
           }
@@ -151,6 +151,7 @@
   },
   "active": "4395beb8a5fbf091",
   "lastOpenFiles": [
+    "Brief concepts of Linear Algebra and Matrix Calculus for Machine Learning.md",
     "1. Math/00.INDEX/00. Math.md",
     "1. Math/01.Linear Algebra/Brief concepts of Linear Algebra and Matrix Calculus for Machine Learning.md",
     "3. GraphDB/01.GraphDB/Cypher(1) Basic.md",
