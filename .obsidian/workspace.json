@@ -1,25 +1,24 @@
 {
   "main": {
-    "id": "c3f9be33edd55f99",
+    "id": "4d5cc581bd8f4cee",
     "type": "split",
     "children": [
       {
-        "id": "5936f3d2398b66df",
+        "id": "1a90ce2c9f6a6eb8",
         "type": "tabs",
         "children": [
           {
-            "id": "4395beb8a5fbf091",
+            "id": "80191be09aaa5eb4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Math/00.INDEX/00. Math.md",
+                "file": "Public/Welcome to the garden.md",
                 "mode": "source",
-                "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "00. Math"
+              "title": "Welcome to the garden"
             }
           }
         ]
@@ -28,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "96c4f4f82b865db1",
+    "id": "86c8e0e49abbc7ea",
     "type": "split",
     "children": [
       {
-        "id": "abb2a914a4215e6f",
+        "id": "e73e078876d05d3d",
         "type": "tabs",
         "children": [
           {
-            "id": "9957c382509e88cd",
+            "id": "04722540a5cdb3dc",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +47,7 @@
             }
           },
           {
-            "id": "9aa264f3efb0c8a7",
+            "id": "ce86393cc120607e",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +64,7 @@
             }
           },
           {
-            "id": "0c91b99237b1409b",
+            "id": "4a8615febc52a15d",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -78,23 +77,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
-    "id": "d23d32c93143dbbf",
+    "id": "5eb27d447f3ac8f3",
     "type": "split",
     "children": [
       {
-        "id": "6376aa3cbcc15753",
+        "id": "04e43fb9db9db20f",
         "type": "tabs",
         "children": [
           {
-            "id": "31cd3da02eb98ec8",
+            "id": "ea6070d23fbabf57",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. Math/00.INDEX/00. Math.md",
+                "file": "Public/Welcome to the garden.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,25 +103,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 00. Math"
+              "title": "Backlinks for Welcome to the garden"
             }
           },
           {
-            "id": "e005216a0f436a59",
+            "id": "f059c1604197d71c",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Math/00.INDEX/00. Math.md",
+                "file": "Public/Welcome to the garden.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 00. Math"
+              "title": "Outgoing links from Welcome to the garden"
             }
           },
           {
-            "id": "e58d707851f577e9",
+            "id": "f553073cf9761af6",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -135,15 +134,15 @@
             }
           },
           {
-            "id": "6f559515518d9ce8",
+            "id": "494c19d96bac8f4a",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Math/00.INDEX/00. Math.md"
+                "file": "Public/Welcome to the garden.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 00. Math"
+              "title": "Outline of Welcome to the garden"
             }
           }
         ]
@@ -160,59 +159,22 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "publish:Publish changes...": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "4395beb8a5fbf091",
+  "active": "04722540a5cdb3dc",
   "lastOpenFiles": [
-    "Brief concepts of Linear Algebra and Matrix Calculus for Machine Learning.md",
-    "1. Math/00.INDEX/00. Math.md",
-    "1. Math/01.Linear Algebra/Brief concepts of Linear Algebra and Matrix Calculus for Machine Learning.md",
-    "3. GraphDB/01.GraphDB/Cypher(1) Basic.md",
-    "2. NLP/01.Text preprocessing/NLP(1) Tokenization.md",
-    "2. NLP/01.Text preprocessing/NLP(2) Stemming & Lemmatization.md",
-    "Pasted image 20240820124225.png",
-    "Pasted image 20240820130841.png",
-    "Pasted image 20240820130045.png",
-    "2. NLP/00.INDEX/01. NLP.md",
-    "3. GraphDB/00.INDEX/02. DB.md",
-    "3. GraphDB/01.GraphDB/Cypher(2) Basic Queries.md",
-    "1. Math/01.Linear Algebra/Untitled.md",
-    "Pasted image 20240820095941.png",
-    "Pasted image 20240816102000.png",
-    "Pasted image 20240816094945.png",
-    "Pasted image 20240816094820.png",
-    "Pasted image 20240816094231.png",
-    "99. ChatGPT와 대화/2024-08-07.md",
-    "Untitled",
-    "99. ChatGPT 4o mini 와의 대화/ChatGPT 4o mini 와의 대화.md",
-    "99. ChatGPT와 대화",
-    "1. Math/04.Big data",
-    "1. Math/03.Probability and Statistics",
-    "1. Math/02.Calculus",
-    "1. Math/01.Linear Algebra",
-    "1. Math/00.INDEX",
-    "1. Math",
-    "3. GraphDB/01.GraphDB",
-    "3. GraphDB/00.INDEX",
-    "2. NLP/02.Language model/NLP(10) Language model.md",
-    "2. NLP/01.Text preprocessing/NLP(9) Korean Text Preprocessing Tools.md",
-    "2. NLP/01.Text preprocessing/NLP(8) Splitting Data.md",
-    "2. NLP/01.Text preprocessing/NLP(7) One Hot Encoding.md",
-    "2. NLP/01.Text preprocessing/NLP(6) Padding.md",
-    "2. NLP/01.Text preprocessing/NLP(5) Integer Encoding.md",
-    "2. NLP/01.Text preprocessing/NLP(4) Regular Expression.md",
-    "2. NLP/01.Text preprocessing/NLP(3) Stopword.md",
-    "3. GraphDB/01.GraphDB/Paper reading - NoSQL spatial.md",
-    "3. GraphDB/01.GraphDB/Neo4j(1) News crawling.md",
-    "3. GraphDB/01.GraphDB/Cypher(7) OSM to Neo4j.md",
-    "3. GraphDB/01.GraphDB/Cypher(6) neo4j python driver.md",
-    "3. GraphDB/01.GraphDB/Cypher(5) Spatial.md",
-    "3. GraphDB/01.GraphDB/Cypher(4) CSV.md",
-    "Untitled 2.canvas",
-    "Untitled 1.canvas",
-    "Untitled.canvas",
-    "GraphDB/Untitled.canvas"
+    "Public/Markdown Rendered.md",
+    "Public/Hidden Note.md",
+    "Public/Credits.md",
+    "pages/posts.md",
+    "pages/notes.md",
+    "pages/lists.md",
+    "pages/404.md",
+    "pages/index.md",
+    "_notes/3. GraphDB/00.INDEX/02. DB.md",
+    "_posts/2020-03-01-features.md",
+    "_notes/1. Math/00.INDEX/00. Math.md",
+    "Public/Welcome to the garden.md"
   ]
 }
