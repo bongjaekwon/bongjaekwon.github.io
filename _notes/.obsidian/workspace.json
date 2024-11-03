@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. GIS/01. GIS.md",
+                "file": "1. Math/00.INDEX/00. Math.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01. GIS"
+              "title": "00. Math"
             }
           }
         ]
@@ -167,18 +167,18 @@
   },
   "active": "4395beb8a5fbf091",
   "lastOpenFiles": [
-    "2. GIS/Mathmatics in GIS.md",
     "2. GIS/01. GIS.md",
     "3. GraphDB/00.INDEX/02. DB.md",
+    "4. NLP/00.INDEX/03. NLP.md",
+    "4. NLP/02.Language model/NLP(10) Language model.md",
+    "2. GIS/Mathmatics in GIS.md",
     "3. GraphDB/01.GraphDB/Cypher(1) Basic.md",
     "1. Math/00.INDEX/00. Math.md",
     "2. GIS/Untitled.md",
-    "4. NLP/00.INDEX/03. NLP.md",
     "4. NLP/01.Text preprocessing/NLP(1) Tokenization.md",
     "2. GIS",
     "1. Math/00.INDEX/Untitled",
     "Mathematical Formulas Used in GIS.md",
-    "4. NLP/02.Language model/NLP(10) Language model.md",
     "Mathematical Formulas Used in GIS2.md",
     "Brief concepts of Linear Algebra and Matrix Calculus for Machine Learning.md",
     "1. Math/01.Linear Algebra/Brief concepts of Linear Algebra and Matrix Calculus for Machine Learning.md",
