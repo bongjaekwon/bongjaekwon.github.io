@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematical Formulas Used in GIS.md",
+                "file": "2. NLP/00.INDEX/01. NLP.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Mathematical Formulas Used in GIS"
+              "title": "01. NLP"
             }
           }
         ]
@@ -167,9 +167,9 @@
   },
   "active": "4395beb8a5fbf091",
   "lastOpenFiles": [
+    "Mathematical Formulas Used in GIS.md",
     "2. NLP/00.INDEX/01. NLP.md",
     "2. NLP/02.Language model/NLP(10) Language model.md",
-    "Mathematical Formulas Used in GIS.md",
     "Mathematical Formulas Used in GIS2.md",
     "1. Math/00.INDEX/00. Math.md",
     "Brief concepts of Linear Algebra and Matrix Calculus for Machine Learning.md",
