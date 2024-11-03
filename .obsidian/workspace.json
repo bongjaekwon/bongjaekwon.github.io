@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Public/Welcome to the garden.md",
+                "file": "_notes/2. NLP/01.Text preprocessing/NLP(3) Stopword.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Welcome to the garden"
+              "title": "NLP(3) Stopword"
             }
           }
         ]
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Public/Welcome to the garden.md",
+                "file": "_notes/2. NLP/01.Text preprocessing/NLP(3) Stopword.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Welcome to the garden"
+              "title": "Backlinks for NLP(3) Stopword"
             }
           },
           {
@@ -112,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Public/Welcome to the garden.md",
+                "file": "_notes/2. NLP/01.Text preprocessing/NLP(3) Stopword.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Welcome to the garden"
+              "title": "Outgoing links from NLP(3) Stopword"
             }
           },
           {
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Public/Welcome to the garden.md"
+                "file": "_notes/2. NLP/01.Text preprocessing/NLP(3) Stopword.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Welcome to the garden"
+              "title": "Outline of NLP(3) Stopword"
             }
           }
         ]
@@ -162,8 +162,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "04722540a5cdb3dc",
+  "active": "80191be09aaa5eb4",
   "lastOpenFiles": [
+    "Public/Welcome to the garden.md",
     "Public/Markdown Rendered.md",
     "Public/Hidden Note.md",
     "Public/Credits.md",
@@ -174,7 +175,6 @@
     "pages/index.md",
     "_notes/3. GraphDB/00.INDEX/02. DB.md",
     "_posts/2020-03-01-features.md",
-    "_notes/1. Math/00.INDEX/00. Math.md",
-    "Public/Welcome to the garden.md"
+    "_notes/1. Math/00.INDEX/00. Math.md"
   ]
 }
