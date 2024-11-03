@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. GIS/Mathmatics in GIS.md",
+                "file": "2. GIS/01. GIS.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Mathmatics in GIS"
+              "title": "01. GIS"
             }
           }
         ]
@@ -167,8 +167,10 @@
   },
   "active": "4395beb8a5fbf091",
   "lastOpenFiles": [
-    "3. GraphDB/00.INDEX/02. DB.md",
     "2. GIS/Mathmatics in GIS.md",
+    "2. GIS/01. GIS.md",
+    "3. GraphDB/00.INDEX/02. DB.md",
+    "3. GraphDB/01.GraphDB/Cypher(1) Basic.md",
     "1. Math/00.INDEX/00. Math.md",
     "2. GIS/Untitled.md",
     "4. NLP/00.INDEX/03. NLP.md",
@@ -180,7 +182,6 @@
     "Mathematical Formulas Used in GIS2.md",
     "Brief concepts of Linear Algebra and Matrix Calculus for Machine Learning.md",
     "1. Math/01.Linear Algebra/Brief concepts of Linear Algebra and Matrix Calculus for Machine Learning.md",
-    "3. GraphDB/01.GraphDB/Cypher(1) Basic.md",
     "4. NLP/01.Text preprocessing/NLP(2) Stemming & Lemmatization.md",
     "Pasted image 20240820124225.png",
     "Pasted image 20240820130841.png",
@@ -210,7 +211,6 @@
     "4. NLP/01.Text preprocessing/NLP(4) Regular Expression.md",
     "4. NLP/01.Text preprocessing/NLP(3) Stopword.md",
     "3. GraphDB/01.GraphDB/Paper reading - NoSQL spatial.md",
-    "3. GraphDB/01.GraphDB/Neo4j(1) News crawling.md",
     "Untitled 2.canvas",
     "Untitled 1.canvas",
     "Untitled.canvas",
