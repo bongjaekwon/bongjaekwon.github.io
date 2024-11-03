@@ -1,7 +1,7 @@
 ---
 title: Mathmatics in GIS
 feed: show
-date: 03-11-2024
+date: 02-11-2024
 ---
 ## Distance Calculation
 
