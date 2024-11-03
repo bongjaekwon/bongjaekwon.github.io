@@ -1,8 +1,4 @@
----
-title: Mathematical Formulas Used in GIS
-feed: show
-date: 03-11-2024
----
+
 ## Distance Calculation
 
 ### 1. Euclidean Distance
