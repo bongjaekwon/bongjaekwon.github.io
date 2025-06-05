@@ -1,1 +1,1 @@
-Matthew 10:8 [...] Freely you have received; freely give.
+Matthew 10:8 [...] Without cost you have received; without cost you are to give.
